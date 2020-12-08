@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="340.271" viewBox="0 0 375 340.271">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Menu_to_X_Start);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #292929;
+        stroke-linecap: round;
+        stroke-width: 10px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Menu_to_X_Start">
+      <rect width="375" height="340.271"/>
+    </clipPath>
+  </defs>
+  <g id="Menu_to_X_Start" data-name="Menu to X – Start" class="cls-1">
+    <rect class="cls-3" width="375" height="340.271"/>
+    <line id="Line_1" data-name="Line 1" class="cls-2" x2="89" transform="translate(143.5 145.5)"/>
+    <line id="Line_2" data-name="Line 2" class="cls-2" x2="89" transform="translate(143.5 170.5)"/>
+    <line id="Line_3" data-name="Line 3" class="cls-2" x2="89" transform="translate(143.5 195.5)"/>
+  </g>
+</svg>

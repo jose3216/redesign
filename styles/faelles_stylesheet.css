@@ -1,0 +1,40 @@
+nav a {
+	width: 100%;
+	color: black;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block;
+}
+
+#menuknap {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.menuknap1,
+.menuknap2,
+.menuknap3 {
+	width: 35px;
+	height: 5px;
+	background-color: #333;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+
+#box_menu {
+	list-style-type: none;
+	transition: transform 3s;
+	transform-origin: top left;
+}
+
+.toggle {
+	display: none;
+}
+
+
+/* ----------TABLET----------------*/
+@media only screen and (min-width: 500px) {}
+
+/* ----------Desctop----------------*/
+@media only screen and (min-width: 600px) {}
