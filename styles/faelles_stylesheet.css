@@ -10,16 +10,7 @@ nav a {
 #menuknap {
 	display: inline-block;
 	cursor: pointer;
-}
-
-.menuknap1,
-.menuknap2,
-.menuknap3 {
-	width: 35px;
-	height: 5px;
-	background-color: #333;
-	margin: 6px 0;
-	transition: 0.4s;
+	font-size: 3em;
 }
 
 #box_menu {
@@ -32,9 +23,10 @@ nav a {
 	display: none;
 }
 
-
 /* ----------TABLET----------------*/
-@media only screen and (min-width: 500px) {}
+@media only screen and (min-width: 500px) {
+	nav a {}
+}
 
 /* ----------Desctop----------------*/
 @media only screen and (min-width: 600px) {}

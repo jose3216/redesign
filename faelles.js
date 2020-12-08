@@ -11,4 +11,12 @@ function sidenVises() {
 function toggle() {
 	console.log("toggle");
 	box_menu.classList.toggle("toggle");
+
+	let erSkjult = document.querySelector("#box_menu").classList.contains("toggle");
+
+	if (erSkjult == true) {
+		document.querySelector("#menuknap").text = "☰";
+	} else {
+		document.querySelector("#menuknap").text = "X";
+	}
 }
