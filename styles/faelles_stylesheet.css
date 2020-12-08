@@ -23,10 +23,22 @@ nav a {
 	display: none;
 }
 
+.hidden {
+	display: none;
+}
+
 /* ----------TABLET----------------*/
 @media only screen and (min-width: 500px) {
-	nav a {}
+	nav a {
+		display: flex;
+	}
+
+
+	#menuknap {
+		display: none;
+	}
 }
+
 
 /* ----------Desctop----------------*/
 @media only screen and (min-width: 600px) {}

@@ -5,12 +5,14 @@ function sidenVises() {
 	const menuknap = document.querySelector("#menuknap");
 	const box_menu = document.querySelector("#box_menu");
 
+	box_menu.classList.add("hidden");
 	menuknap.addEventListener("click", toggle);
 }
 
 function toggle() {
 	console.log("toggle");
 	box_menu.classList.toggle("toggle");
+	box_menu.classList.remove("hidden");
 
 	let erSkjult = document.querySelector("#box_menu").classList.contains("toggle");
 
