@@ -1,3 +1,17 @@
+/*Reset*/
+* {
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
+body {
+	background-color: white;
+}
+
+/*Menu linje*/
 nav a {
 	width: 100%;
 	color: black;
@@ -40,5 +54,5 @@ nav a {
 }
 
 
-/* ----------Desctop----------------*/
+/* ----------Desktop----------------*/
 @media only screen and (min-width: 600px) {}

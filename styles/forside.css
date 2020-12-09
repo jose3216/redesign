@@ -1,0 +1,42 @@
+main {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+section {
+	margin: 40px;
+}
+
+#muligheder .sectionwrapper,
+#instagram .sectionwrapper {
+	display: flex;
+	grid-gap: 5px;
+	padding: 5px;
+	overflow-x: scroll;
+}
+
+figure {
+	flex-grow: 1;
+	flex-basis: 40%;
+	flex-shrink: 0;
+}
+
+figcaption {
+	padding: 20px;
+	background-color: antiquewhite;
+	width: 50%;
+}
+
+figure img {
+	width: 60%;
+}
+
+#instagram figure img {
+	width: 40%;
+}
+
+#instagram h3 {
+	text-align: center;
+	padding: 10px;
+}
+}

@@ -5,7 +5,6 @@ function sidenVises() {
 	const menuknap = document.querySelector("#menuknap");
 	const box_menu = document.querySelector("#box_menu");
 
-	box_menu.classList.add("hidden");
 	menuknap.addEventListener("click", toggle);
 }
 
