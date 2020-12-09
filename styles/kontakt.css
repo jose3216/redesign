@@ -11,26 +11,37 @@ img {
 h2 {
     font-family: 'martel', sherif;
     text-align: center;
-    font-size: 10vw;
+    font-size: 8vw;
 }
 #splash {
     background-image: url();
-    background-color: aquamarine;
+    background-color: #BCEDE2;
 }
 
 /*-------STYLE AF FORMULAR------*/
 
 label,
 input,
-button {
+button,
+textarea {
     display: block;
 }
 .form-felt {
-    margin: 5px;
+    margin: 10px;
+    background-color: #BCEDE2;
+    border-radius: 5px;
+}
+#formular img {
+    width: 60%;
 }
 
 /*--------STYLE AF SOCIALMEDIA-----*/
 
+#socialmedia p {
+    text-align: center;
+    font-family: 'lato';
+    font-size: 5vw;
+}
 #socialmedia .top {
     display: flex;
     flex-direction: column;
@@ -39,9 +50,12 @@ button {
     display: flex;
     flex-direction: column;
 }
+.medie {
+    font-weight: 600;
+}
 
 /*----------STYLE AF FIND----------*/
 
-iframe {
-    100%;
+#find .bottom {
+    max-width: 100%;
 }
