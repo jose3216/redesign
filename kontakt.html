@@ -2,28 +2,129 @@
 <html lang="da">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="styles/faelles_stylesheet.css">
-	<link rel="stylesheet" href="styles/kontakt.css">
-	<title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/faelles_stylesheet.css">
+    <link rel="stylesheet" href="styles/kontakt.css">
+    <title>Aurelia kaffe</title>
 </head>
 
 <body>
-	<header>
-		<nav>
-			<div id="menuknap">☰</div>
-			<div id="box_menu">
-				<a href="index.html">Forside</a>
-				<a href="produkt.html">Menu</a>
-				<a href="om.html">Om os</a>
-				<a href="kontakt.html">Kontakt</a>
-			</div>
+    <header>
+        <nav>
+            <div id="menuknap">☰</div>
+            <div id="box_menu">
+                <a href="index.html">Forside</a>
+                <a href="produkt.html">Menu</a>
+                <a href="om.html">Om os</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+        </nav>
+    </header>
 
-		</nav>
-	</header>
+    <section id="splash">
+        <div class="sectionwrapper">
+            <div class="col">
+                <h2>Kontakt mig</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="formular">
+        <div class="sectionwrapper">
+            <!----------------FORM FORMULAR---------------->
+            <div class="col">
+                <form action="tak.html" name="kontakt" netlify>
+                    <div class="form-felt">
+                        <label for="navn">
+                            Navn:
+                            <input placeholder="fx Tilde Jensen" name="navn" type="text" required>
+                        </label>
+                    </div>
+
+                    <div class="form-felt">
+                        <label for="email">
+                            E-mail:
+                            <input placeholder="fx Tilde@jensen.dk" name="email" type="text" required>
+                        </label>
+                    </div>
+
+                    <div class="form-felt">
+                        <label for="emne">
+                            Emne:
+                            <input placeholder="Hvad omhandler din besked om?" name="emne" type="text" required>
+                        </label>
+                    </div>
+
+                    <div class="form-felt">
+                        <label for="besked">
+                            Besked:
+                            <input placeholder="Hvad har du i tankerne?" name="emne" type="text" required>
+                        </label>
+                    </div>
+
+                    <div class="form-felt">
+                        <label for="send">
+                            <input name="send" type="submit" required>
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="col">
+                <img src="kontakt_illustration.svg" alt="illustration af kundeservice">
+            </div>
+        </div>
+    </section>
+
+    <section id="socialmedia">
+        <div class="sectionwrapper">
+            <p>For mere information følg med på min Instagram og Facebook-side, og ved yderligere spørgsmål, kan du kontakte mig mail eller telefon.</p>
+            <div class="top">
+                <div class="col">
+                    <img src="img/instgram.png" alt="instagram ikon">
+                </div>
+                <div class="col">
+                    <img src="img/facebook.png" alt="facebook ikon">
+                </div>
+                <div class="col">
+                    <img src="img/telefon.png" alt="telefon ikon">
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="col">
+                    <p class="medie">Instagram</p>
+                    <p class="medienavn">@aureliakaffe</p>
+                </div>
+                <div class="col">
+                    <p class="medie">Facebook</p>
+                    <p class="medienavn">@aureliakaffe</p>
+                </div>
+                <div class="col">
+                    <p class="medie">Telefon</p>
+                    <p class="medienavn">+45 81 44 52 12</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="find">
+        <div class="sectionwrapper">
+            <div class="top">
+                <h3>Find mig</h3>
+                <p>Sankt Kjelds Plads 6, st. th. 2100 København Ø</p>
+            </div>
+            <div class="bottom">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.7448747777644!2d12.563008821223535!3d55.71080628044661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652525f2d562ba3%3A0x7bf53e47e67e20d1!2sAurelia!5e0!3m2!1sda!2sdk!4v1607506229035!5m2!1sda!2sdk" width="1920" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
+
+
+    <script src="faelles.js"></script>
 </body>
 
-<script src="faelles.js"></script>
+
 
 </html>
