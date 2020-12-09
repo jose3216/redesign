@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    100%;
+}
+
+/*-------STYLE AF SPLASH--------*/
+
+h2 {
+    font-family: 'martel', sherif;
+    text-align: center;
+    font-size: 8vw;
+}
+#splash {
+    background-image: url();
+    background-color: #BCEDE2;
+}
+
+/*-------STYLE AF FORMULAR------*/
+
+label,
+input,
+button,
+textarea {
+    display: block;
+}
+.form-felt {
+    margin: 10px;
+    font-family: 'lato';
+    font-weight: 500;
+    font-size: 1vw;
+    text-align: center;
+}
+#formular img {
+    width: 60%;
+    text-align: center;
+}
+#formular .sectionwrapper {
+    background-color: #BCEDE2;
+    border-radius: 8px;
+}
+
+/*--------STYLE AF SOCIALMEDIA-----*/
+
+#socialmedia p {
+    text-align: center;
+    font-family: 'lato';
+    font-size: 2vw;
+}
+#socialmedia .top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+#socialmedia .bottom {}
+.medie {
+    font-weight: 600;
+}
+
+/*----------STYLE AF FIND----------*/
+
+#find .bottom {
+    max-width: 100%;
+}
