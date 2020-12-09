@@ -1,5 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    100%;
+}
+
+/*-------STYLE AF SPLASH--------*/
+
+h2 {
+    font-family: 'martel', sherif;
+    text-align: center;
+    font-size: 10vw;
+}
+#splash {
+    background-image: url();
+    background-color: aquamarine;
+}
+
+/*-------STYLE AF FORMULAR------*/
+
 label,
 input,
 button {
     display: block;
+}
+.form-felt {
+    margin: 5px;
+}
+
+/*--------STYLE AF SOCIALMEDIA-----*/
+
+#socialmedia .top {
+    display: flex;
+    flex-direction: column;
+}
+#socialmedia .bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+/*----------STYLE AF FIND----------*/
+
+iframe {
+    100%;
 }
