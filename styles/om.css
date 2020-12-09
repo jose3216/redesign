@@ -1,0 +1,35 @@
+body {
+    background-color: #d8f2d8;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+
+
+img {
+    width: 50vw;
+    height: 50vw;
+}
+
+#fourth_section .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+}
+
+#fourth_section .section_wrapper {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+    margin-top: 2vw;
+    margin-bottom: 7vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
