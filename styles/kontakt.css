@@ -171,8 +171,8 @@ button {
     }
     #socialmedia .bottom {
         display: grid;
-        grid-template-columns: auto 60px 50px 120px auto;
-        grid-gap: 100px;
+        grid-template-columns: auto 110px 120px 120px auto;
+        grid-gap: 45px;
         padding-bottom: 20px;
     }
 }
@@ -205,8 +205,8 @@ button {
     }
     #socialmedia .bottom {
         display: grid;
-        grid-template-columns: auto 100px 100px 120px auto;
-        grid-gap: 120px;
+        grid-template-columns: auto 120px 120px 120px auto;
+        grid-gap: 100px;
         padding-bottom: 20px;
     }
 }
