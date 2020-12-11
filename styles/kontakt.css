@@ -5,17 +5,19 @@
 img {
     100%;
 }
+section {
+    margin-bottom: 20px;
+}
 
 /*-------STYLE AF SPLASH--------*/
 
 h2 {
     font-family: 'martel', sherif;
     text-align: center;
-    font-size: 8vw;
+    font-size: 2.5rem;
 }
 #splash {
-    background-image: url();
-    background-color: #BCEDE2;
+    background-image: url("");
 }
 
 /*-------STYLE AF FORMULAR------*/
@@ -25,42 +27,186 @@ input,
 button,
 textarea {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+input,
+textarea {
+    width: 90%;
+}
+input {
+    height: 30px;
+}
+button {
+    width: 20%;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'lato';
+    font-weight: 600;
+    font-size: 1rem;
+}
+#formular {
+    padding: 2.5vw;
+}
+#formular h3 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+#formular img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+#formular .sectionwrapper {
+    background-color: #BCEDE2;
+    border-radius: 20px;
+    padding-top: 10px;
 }
 .form-felt {
     margin: 10px;
     font-family: 'lato';
-    font-weight: 500;
-    font-size: 1vw;
-    text-align: center;
+    font-weight: 600;
+    font-size: 1rem;
 }
-#formular img {
-    width: 60%;
-    text-align: center;
-}
-#formular .sectionwrapper {
-    background-color: #BCEDE2;
-    border-radius: 8px;
+.overskrift {
+    margin-left: 5vw;
 }
 
 /*--------STYLE AF SOCIALMEDIA-----*/
 
+#socialmedia {
+    margin: 10px;
+}
 #socialmedia p {
     text-align: center;
     font-family: 'lato';
-    font-size: 2vw;
+    font-size: 1rem;
+    padding-bottom: 30px;
 }
 #socialmedia .top {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 50px 100px 100px 100px;
+    grid-gap: 120px;
+    padding-bottom: 20px;
 }
-#socialmedia .bottom {}
+#ig_ikon {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+}
+#fb_ikon {
+    grid-column-start: 3;
+    grid-column-end: span 1;
+}
+#tel_ikon {
+    grid-column-start: 4;
+    grid-column-end: span 1;
+    padding-right: 140px;
+}
+#socialmedia .bottom {
+    display: grid;
+    grid-template-columns: 50px 100px 100px 120px 100px;
+    grid-gap: 120px;
+    padding-bottom: 20px;
+}
+#col1 {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+}
+#col2 {
+    grid-column-start: 3;
+    grid-column-end: span 1;
+}
+#col3 {
+    grid-column-start: 4;
+    grid-column-end: span 1;
+}
 .medie {
     font-weight: 600;
+}
+#socialmedia .sectionwrapper {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+#socialmedia .sectionwrapper {
+    flex-basis: 90%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
 }
 
 /*----------STYLE AF FIND----------*/
 
+#findmig {
+    font-family: 'martel';
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#find img {
+    width: 25px;
+    padding-left: 10px;
+}
+#find p {
+    text-align: center;
+    font-family: 'lato';
+    padding-bottom: 20px;
+    font-size: 1.1rem;
+}
 #find .bottom {
-    max-width: 100%;
+    overflow: hidden;
+}
+
+/*----------TABLET VERSION--------*/
+
+@media only screen and (min-width:600px) {
+    #socialmedia .top {
+        display: grid;
+        grid-template-columns: auto 60px 60px 60px auto;
+        grid-gap: 100px;
+        padding-bottom: 20px;
+    }
+    #socialmedia .bottom {
+        display: grid;
+        grid-template-columns: auto 110px 120px 120px auto;
+        grid-gap: 45px;
+        padding-bottom: 20px;
+    }
+}
+
+/*---------DESKTOP VERSION--------*/
+
+@media only screen and (min-width:800px) {
+    /*---------STYLE AF FORMULAR------*/
+    #formular .sectionwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 40px;
+    }
+    #formular img {
+        width: 70%;
+    }
+    .overskrift {
+        margin-left: 2.5vw;
+    }
+    /*--------STYLE AF SOCIALMEDIA--------*/
+    #tekst {
+        width: 60%;
+        padding-left: 20vw;
+    }
+    #socialmedia .top {
+        display: grid;
+        grid-template-columns: auto 100px 100px 100px auto;
+        grid-gap: 120px;
+        padding-bottom: 20px;
+    }
+    #socialmedia .bottom {
+        display: grid;
+        grid-template-columns: auto 120px 120px 120px auto;
+        grid-gap: 100px;
+        padding-bottom: 20px;
+    }
 }

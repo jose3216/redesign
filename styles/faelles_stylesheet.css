@@ -3,6 +3,10 @@
 	margin: 0;
 }
 
+p {
+	3em;
+}
+
 img {
 	width: 100%;
 }
@@ -33,6 +37,11 @@ nav a {
 	transform-origin: top left;
 }
 
+#logo {
+	width: 60px;
+	height: 59px;
+}
+
 .toggle {
 	display: none;
 }
@@ -42,17 +51,21 @@ nav a {
 }
 
 /* ----------TABLET----------------*/
-@media only screen and (min-width: 500px) {
-	nav a {
-		display: flex;
+@media only screen and (min-width: 500px) {}
+
+
+/* ----------Desktop----------------*/
+@media only screen and (min-width: 600px) {
+	s nav {
+		flex-direction: row;
+		justify-content: space-around;
+		position: fixed;
+		width: 100vw;
 	}
 
 
 	#menuknap {
 		display: none;
+
 	}
 }
-
-
-/* ----------Desktop----------------*/
-@media only screen and (min-width: 600px) {}

@@ -1,12 +1,29 @@
 main {
-	max-width: 900px;
+	max-width: 1100px;
 	margin: 0 auto;
 }
 
 section {
-	margin: 40px;
+	/*	margin: 40px;*/
 }
 
+/*Section citat*/
+#citat .sectionwrapper {}
+
+#citat .col {
+	position: relative;
+	text-align: center;
+	top: -45vw;
+	font-size: 4em;
+}
+
+#citat .col p {
+	position: absolute;
+	font-size: 1rem;
+	right: 25vw;
+}
+
+/*Section Instagram*/
 #muligheder .sectionwrapper,
 #instagram .sectionwrapper {
 	display: flex;
@@ -39,4 +56,91 @@ figure img {
 	text-align: center;
 	padding: 10px;
 }
+
+
+/* ----------TABLET----------------*/
+@media only screen and (min-width: 500px) {}
+
+
+/* ----------Desktop----------------*/
+@media only screen and (min-width: 600px) {
+
+	/*	Section Velkommen */
+	#velkommen {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+		/*		align-content: flex-end;*/
+	}
+
+	/*	Section Galleri */
+	#galleri {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+
+	#galleri .sectionwrapper .top .img1 {
+		grid-column-start: 1;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	#galleri .sectionwrapper .top .text {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		position: relative;
+		text-align: center;
+	}
+
+	#galleri .sectionwrapper .top .img2 {
+		grid-column-start: 4;
+		grid-column-end: 5;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}
+
+	#galleri .sectionwrapper .bottom .img1 {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
+	#galleri .sectionwrapper .bottom .text {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		position: relative;
+		text-align: center;
+	}
+
+	#galleri .sectionwrapper .bottom .img2 {
+		grid-column-start: 3;
+		grid-column-end: 5;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}
+
+
+
+	#aabningstider {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 20px;
+	}
+
+	#aabningstider .sectionwrapper .tider {
+		grid-column-start: 1;
+		grid-column-end: 2;
+	}
+
+	#aabningstider .sectionwrapper .facade {
+		grid-column-start: 2;
+		grid-column-end: 3;
+	}
 }
