@@ -1,98 +1,87 @@
 /*Reset*/
+
 * {
-	margin: 0;
+    margin: 0;
 }
-
 p {
-	3em;
+    3em;
 }
-
 img {
-	width: 100%;
+    width: 100%;
 }
-
 body {
-	background-color: white;
+    background-color: white;
 }
 
 /*Menu linje*/
+
 nav a {
-	width: 100%;
-	color: black;
-	text-decoration: none;
-	font-size: 1.5em;
-	display: block;
-	top: -8vw;
-	flex-direction: column;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+    top: -8vw;
+    flex-direction: column;
 }
-
 #menuknap {
-	display: inline-block;
-	cursor: pointer;
-	font-size: 3em;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 3em;
 }
-
 #box_menu {
-	list-style-type: none;
-	transform-origin: top left;
+    list-style-type: none;
+    transform-origin: top left;
 }
-
 #logo img {
-	width: 60px;
-	height: 59px;
+    width: 60px;
+    height: 59px;
 }
-
 .toggle {
-	display: none;
+    display: none;
 }
-
 .hidden {
-	display: none;
+    display: none;
 }
 
 /* ----------TABLET----------------*/
+
+
 /*@media only screen and (min-width: 500px) {}*/
 
 
 /* ----------Desktop----------------*/
+
 @media only screen and (min-width: 600px) {
-	nav {
-		padding: 80vw;
-	}
-
-	ul {
-		padding-left: 100px;
-		padding-top: 10px;
-		float: right;
-	}
-
-	li {
-		float: left;
-		padding: 10px;
-	}
-
-	li a {
-		display: block;
-		padding: 8px;
-	}
-
-	nav {
-		display: inline;
-		justify-content: space-around;
-		position: relative;
-		width: 100%;
-		/*		text-align: justify;*/
-		top: 0;
-	}
-
-	nav a {
-		top: 5vw;
-		padding-right: 20px
-	}
-
-
-	#menuknap {
-		display: none;
-
-	}
+    nav {
+        padding: 80vw;
+    }
+    ul {
+        padding-left: 100px;
+        padding-top: 10px;
+        float: right;
+    }
+    li {
+        float: left;
+        padding: 10px;
+    }
+    li a {
+        display: block;
+        padding: 8px;
+    }
+    nav {
+        display: inline;
+        justify-content: space-around;
+        position: relative;
+        width: 100%;
+        /*		text-align: justify;*/
+        top: 0;
+    }
+    nav a {
+        top: 5vw;
+        padding-right: 20px
+    }
+    #menuknap {
+        display: none;
+    }
 }

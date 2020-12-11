@@ -14,10 +14,16 @@ section {
 h2 {
     font-family: 'martel', sherif;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 7vw;
+    position: relative;
+    top: 200px;
+    color: white;
 }
 #splash {
-    background-image: url("");
+    background-image: url(../kontakt_splash.jpg);
+    background-size: cover;
+    height: 80vh;
+    max-width: none;
 }
 
 /*-------STYLE AF FORMULAR------*/
