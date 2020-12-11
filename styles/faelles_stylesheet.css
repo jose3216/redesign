@@ -19,10 +19,11 @@ body {
 nav a {
 	width: 100%;
 	color: black;
-	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 1.5em;
 	display: block;
+	top: -8vw;
+	flex-direction: column;
 }
 
 #menuknap {
@@ -33,7 +34,6 @@ nav a {
 
 #box_menu {
 	list-style-type: none;
-	transition: transform 3s;
 	transform-origin: top left;
 }
 
@@ -56,9 +56,8 @@ nav a {
 
 /* ----------Desktop----------------*/
 @media only screen and (min-width: 600px) {
-	header {
-		padding: 1vw;
-
+	nav {
+		padding: 80vw;
 	}
 
 	ul {

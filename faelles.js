@@ -7,13 +7,13 @@ function sidenVises() {
 
 		const menuknap = document.querySelector("#menuknap");
 		const box_menu = document.querySelector("#box_menu");
-		document.querySelector("#logo").classList.add("hidden");
+//		document.querySelector("#logo").classList.add("hidden");
 
 		menuknap.addEventListener("click", toggle);
 	} else {
-		/* The viewport is greater than 700 pixels wide */
+		/* The viewport is greater than 600 pixels wide */
 		menuknap.classList.add("hidden");
-		document.querySelector("#logo").classList.remove("hidden");
+//		document.querySelector("#logo").classList.remove("hidden");
 
 	}
 }
