@@ -10,13 +10,20 @@ h2 {
 
 }
 
+p {
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 40px;
+}
+
 
 
 img {
-    width: 25vw;
-    height: 25vw;
+    width: 30vw;
+    height: 30vw;
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     padding-top: 10px;
     padding-right: 10px;
 
@@ -28,12 +35,7 @@ img {
     column-gap: 10px;
 }
 
-/* #fourth_section .col {
-    display: flex;
-    flex-direction: column;
 
-}
-*/
 
  @media only screen and (min-width: 600px) {
     #fourth_section .section_wrapper {
