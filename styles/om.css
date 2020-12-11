@@ -61,6 +61,7 @@ img {
     #fourth_section {
     display: grid;
     grid-template-columns: 1fr;
+    column-gap: 10px;
     margin-top: 2vw;
     margin-bottom: 2vw;
     margin-left: 2vw;
