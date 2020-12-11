@@ -148,12 +148,13 @@ figure img {
 
 	#galleri .sectionwrapper img {
 		display: block;
-		width: 100%;
+		height: 100%;
 		object-fit: cover;
+
 	}
 
 
-	#galleri .sectionwrapper .top .img1 {
+	#galleri .sectionwrapper .img1 {
 		position: relative;
 		grid-column-start: 1;
 		grid-column-end: 3;
@@ -161,17 +162,18 @@ figure img {
 		grid-row-end: 2;
 	}
 
-	#galleri .sectionwrapper .top .text1 {
+	#galleri .sectionwrapper .text1 {
 		position: relative;
 		text-align: center;
 		grid-column-start: 3;
 		grid-column-end: 4;
 		grid-row-start: 1;
 		grid-row-end: 2;
+		top: 15vw;
 
 	}
 
-	#galleri .sectionwrapper .top .img2 {
+	#galleri .sectionwrapper .img2 {
 		position: relative;
 		grid-column-start: 4;
 		grid-column-end: 5;
@@ -179,7 +181,7 @@ figure img {
 		grid-row-end: 2;
 	}
 
-	#galleri .sectionwrapper .bottom .img1 {
+	#galleri .sectionwrapper .img3 {
 		position: relative;
 		grid-column-start: 1;
 		grid-column-end: 2;
@@ -187,16 +189,17 @@ figure img {
 		grid-row-end: 3;
 	}
 
-	#galleri .sectionwrapper .bottom .text2 {
+	#galleri .sectionwrapper .text2 {
 		grid-column-start: 2;
 		grid-column-end: 3;
 		grid-row-start: 2;
 		grid-row-end: 3;
 		position: relative;
 		text-align: center;
+		top: 15vw;
 	}
 
-	#galleri .sectionwrapper .bottom .img2 {
+	#galleri .sectionwrapper.img4 {
 		position: relative;
 		grid-column-start: 3;
 		grid-column-end: 5;
