@@ -3,13 +3,16 @@ body {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3.5em;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 3em;
     padding-bottom: 25px;
+}
 
+h3 {
+    font-size: 2em;
 }
 
 p {
