@@ -3,10 +3,12 @@ body {
 }
 
 h1 {
-
+    font-size: 2em;
 }
 
 h2 {
+    font-size: 2em;
+    padding-bottom: 25px;
 
 }
 
@@ -14,7 +16,9 @@ p {
     text-align: center;
     padding-left: 35px;
     padding-right: 35px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    font-size: 1em;
 }
 
 
