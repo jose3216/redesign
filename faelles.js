@@ -2,17 +2,18 @@ window.addEventListener("load", sidenVises);
 
 function sidenVises() {
 	console.log("sidenVises");
-	if (window.matchMedia("(max-width: 600px)").matches) {
+	if (window.matchMedia("(max-width: 500px)").matches) {
 		/* The viewport is less than, or equal to, 600 pixels wide */
 
 		const menuknap = document.querySelector("#menuknap");
 		const box_menu = document.querySelector("#box_menu");
-		document.querySelector("#logo").classList.add("toggle");
+		document.querySelector("#logo").classList.add("hidden");
 
 		menuknap.addEventListener("click", toggle);
 	} else {
 		/* The viewport is greater than 700 pixels wide */
 		menuknap.classList.add("hidden");
+		document.querySelector("#logo").classList.remove("hidden");
 
 	}
 }

@@ -37,7 +37,7 @@ nav a {
 	transform-origin: top left;
 }
 
-#logo {
+#logo img {
 	width: 60px;
 	height: 59px;
 }
@@ -56,11 +56,39 @@ nav a {
 
 /* ----------Desktop----------------*/
 @media only screen and (min-width: 600px) {
-	s nav {
-		flex-direction: row;
+	header {
+		padding: 1vw;
+
+	}
+
+	ul {
+		padding-left: 100px;
+		padding-top: 10px;
+		float: right;
+	}
+
+	li {
+		float: left;
+		padding: 10px;
+	}
+
+	li a {
+		display: block;
+		padding: 8px;
+	}
+
+	nav {
+		display: inline;
 		justify-content: space-around;
-		position: fixed;
-		width: 100vw;
+		position: relative;
+		width: 100%;
+		/*		text-align: justify;*/
+		top: 0;
+	}
+
+	nav a {
+		top: 5vw;
+		padding-right: 20px
 	}
 
 
