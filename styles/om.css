@@ -40,8 +40,9 @@ img {
     column-gap: 10px;
 }
 
+/* ----Desktop version---- */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
     #fourth_section .section_wrapper {
     text-align: center;
     display: grid;
@@ -54,8 +55,12 @@ img {
     }
 }
 
-@media only screen and (max-width: 600px) {
+/* ----Tablet version----*/
+
+@media only screen and (min-width: 500px) {
     #fourth_section {
+    display: grid;
+    grid-template-columns: 1fr;
     margin-top: 2vw;
     margin-bottom: 2vw;
     margin-left: 2vw;
