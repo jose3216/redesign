@@ -2,16 +2,26 @@ window.addEventListener("load", sidenVises);
 
 function sidenVises() {
 	console.log("sidenVises");
-	const menuknap = document.querySelector("#menuknap");
-	const box_menu = document.querySelector("#box_menu");
+	if (window.matchMedia("(max-width: 600px)").matches) {
+		/* The viewport is less than, or equal to, 600 pixels wide */
 
-	menuknap.addEventListener("click", toggle);
+		const menuknap = document.querySelector("#menuknap");
+		const box_menu = document.querySelector("#box_menu");
+		document.querySelector("#logo").classList.add("toggle");
+
+		menuknap.addEventListener("click", toggle);
+	} else {
+		/* The viewport is greater than 700 pixels wide */
+		menuknap.classList.add("hidden");
+
+	}
 }
 
 function toggle() {
 	console.log("toggle");
 	box_menu.classList.toggle("toggle");
 	box_menu.classList.remove("hidden");
+
 
 	let erSkjult = document.querySelector("#box_menu").classList.contains("toggle");
 
