@@ -15,6 +15,7 @@ h2 {
 	font-size: 1.8rem;
 	padding-left: 10px;
 	padding-bottom: 25px;
+	padding-top: 20px;
 }
 
 h3 {
@@ -22,26 +23,32 @@ h3 {
 	padding-left: 10px;
 }
 
+h4 {
+	padding-left: 10px;
+}
+
 p {
 	text-align: left;
 	padding-left: 20px;
 	padding-right: 30px;
-	padding-bottom: 30px;
-	padding-top: 40px;
+	padding-bottom: 50px;
+	padding-top: 20px;
 	font-size: 1em;
 }
 
 img {
-	width: 30vw;
-	height: 30vw;
+	/*
+	width: 30%;
+	height: 30%;
+*/
 	padding-top: 10px;
 	padding-bottom: 25px;
 	padding-left: 10px;
 	padding-right: 10px;
-	border-radius: 50px;
+	border-radius: 30px;
 }
 
-#fourth_section .row {
+#fourth_section .row1 {
 	display: grid;
 	grid-template-columns: 1fr;
 	column-gap: 10px;
@@ -65,9 +72,51 @@ img {
 		text-align: center;
 		padding-left: 150px;
 		padding-right: 150px;
-		padding-bottom: 30px;
+		padding-bottom: 110px;
 		padding-top: 40px;
 		font-size: 1em;
+	}
+
+	h4 {
+		padding-left: 30px;
+		padding-bottom: 10px;
+	}
+
+	.row2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.row2 .col1 {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.row2 .col2 {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		text-align: left;
+	}
+
+	.row2 .col2 p {
+		text-align: left;
+		padding: 30px;
+		padding-top: 0;
+	}
+
+	.row2 .col2 h3 {
+		text-align: left;
+		padding-left: 30px;
+		padding-top: 15px;
+		padding-bottom: 0;
+	}
+
+	img {
+		width: 100%;
 	}
 
 	/* ----Tablet version----*/
