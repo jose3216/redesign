@@ -37,6 +37,7 @@ p {
 }
 
 img {
+    width: 100%;
 	padding-top: 10px;
 	padding-bottom: 25px;
 	padding-left: 10px;
@@ -125,4 +126,7 @@ img {
 			margin-right: 2vw;
 			text-align: center;
 		}
+        img {
+		    width: 100%;
+	    }
 	}
