@@ -9,6 +9,7 @@ body {
 .col {
     background-color: #bcede2;
     border-radius: 30px;
+    padding: auto 30px #bcede2;
 }
 
 h1 {
@@ -118,7 +119,7 @@ img {
 	}
 
 	img {
-		width: 100%;
+		width: 80%;
 	}
 
 	/* ----Tablet version----*/
