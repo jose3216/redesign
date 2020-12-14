@@ -6,8 +6,18 @@
 
 /*fællesfont*/
 
-h1 {
+h1 .speciel-font {
     font-family: 'Parisienne', cursive;
+    font-size: 6em;
+}
+@font-face {
+    font-family: 'photograph_signatureregular';
+    src: url('../font/photograph_signature-webfont.woff2') format('woff2'), url('../font/photograph_signature-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font-family: 'photograph_signatureregular';
     font-size: 6em;
 }
 h2,
