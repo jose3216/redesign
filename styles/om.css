@@ -1,71 +1,86 @@
+main {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
 body {
-    background-color: #bcede2;
+	background-color: #bcede2;
 }
 
 h1 {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 h2 {
-    font-size: 1.8rem;
-    padding-bottom: 25px;
+	font-size: 1.8rem;
+	padding-left: 10px;
+	padding-bottom: 25px;
 }
 
 h3 {
-    font-size: 1.3rem;
+	font-size: 1.3rem;
+	padding-left: 10px;
 }
 
 p {
-    text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 30px;
-    padding-top: 40px;
-    font-size: 1em;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	font-size: 1em;
 }
 
 img {
-    width: 30vw;
-    height: 30vw;
-    padding-top: 10px;
-    padding-bottom: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 50px;
+	width: 30vw;
+	height: 30vw;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 50px;
 }
 
 #fourth_section .row {
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 10px;
+	display: grid;
+	grid-template-columns: 1fr;
+	column-gap: 10px;
 }
 
 /* ----Desktop version---- */
 
 @media only screen and (min-width: 800px) {
-    #fourth_section .section_wrapper {
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 10px;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    }
-}
+	#fourth_section .section_wrapper {
+		text-align: center;
+		display: grid;
+		grid-template-columns: 1fr;
+		column-gap: 10px;
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+		margin-left: 2vw;
+		margin-right: 2vw;
+	}
 
-/* ----Tablet version----*/
+	p {
+		text-align: center;
+		padding-left: 150px;
+		padding-right: 150px;
+		padding-bottom: 30px;
+		padding-top: 40px;
+		font-size: 1em;
+	}
 
-@media only screen and (min-width: 500px) {
-    #fourth_section {
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 10px;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
-    text-align: center;
-    }
-}
+	/* ----Tablet version----*/
+
+	@media only screen and (min-width: 500px) {
+		#fourth_section {
+			display: grid;
+			grid-template-columns: 1fr;
+			column-gap: 10px;
+			margin-top: 2vw;
+			margin-bottom: 2vw;
+			margin-left: 2vw;
+			margin-right: 2vw;
+			text-align: center;
+		}
+	}
