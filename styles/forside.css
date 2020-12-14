@@ -103,14 +103,19 @@ main {
 }
 
 /*Section Instagram*/
-#muligheder .sectionwrapper,
-#instagram .sectionwrapper {
+#muligheder .sectionwrapper {
 	display: flex;
 	grid-gap: 20px;
 	padding: 5px;
 	overflow-x: scroll;
 }
 
+#instagram .sectionwrapper {
+	display: flex;
+	grid-gap: 5px;
+	padding: 5px;
+	overflow-x: scroll;
+}
 
 figure {
 	flex-grow: 1;
@@ -129,19 +134,16 @@ figcaption {
 	font-size: 1.5em;
 }
 
-figure img {
+#muligheder figure img {
 	width: 90%;
 	padding-left: 2.5vw;
 	padding-top: 2.5vw;
 }
 
-#instagram figure img {
-	width: 40%;
-}
-
-#instagram .sectionwrapper .figure {
-	border-style: solid;
-	border-color: red;
+#instagram img {
+	width: 20%;
+	padding-left: 2.5vw;
+	padding-top: 2.5vw;
 }
 
 #instagram h3 {
