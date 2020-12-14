@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../img/tak_baggrund.jpg);
+}
+h1 {
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 150px;
+    font-family: 'martel';
+}
+h2 {
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: 'martel';
+}
+#logo {
+    width: 10%;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#billede1 {
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    top: 40px;
+    right: 10vw;
+}
+#billede2 {
+    width: 300px;
+    border-radius: 20px;
+    position: absolute;
+    top: 300px;
+    right: 2vw;
+}
+a {
+    font-size: 2vw;
+    text-decoration: none;
+    font-family: 'lato';
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    top: 500px;
+    left: 7vw;
+}
+#pil {
+    width: 2vw;
+    position: relative;
+    top: 0.3vw;
+}
+@media only screen and (max-width:1000px) {
+    h1 {
+        font-size: 5vw;
+    }
+    h2 {
+        font-size: 4vw;
+    }
+    #billede1 {
+        position: absolute;
+        top: 500px;
+        left: 60px;
+    }
+    #billede2 {
+        position: absolute;
+        top: 500px;
+        right: 60px;
+    }
+    a {
+        font-size: 3vw;
+        position: absolute;
+        top: 750px;
+        left: 35vw;
+    }
+}
+@media only screen and (max-width:500px) {
+    #billede1 {
+        width: 150px;
+        position: absolute;
+        top: 300px;
+        left: 10vw;
+    }
+    #billede2 {
+        width: 150px;
+        top: 420px;
+        right: 10vw;
+    }
+    a {
+        font-size: 5vw;
+        position: absolute;
+        top: 600px;
+        left: 25vw;
+    }
+}

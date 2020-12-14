@@ -8,16 +8,26 @@ img {
 section {
     margin-bottom: 20px;
 }
+nav,
+nav a {
+    color: white;
+}
 
 /*-------STYLE AF SPLASH--------*/
 
 h2 {
     font-family: 'martel', sherif;
-    text-align: center;
-    font-size: 2.5rem;
+    font-size: 7vw;
+    position: absolute;
+    top: 200px;
+    left: 25vw;
+    color: white;
 }
 #splash {
-    background-image: url("");
+    background-image: url(../kontakt_splash.jpg);
+    background-size: cover;
+    height: 80vh;
+    max-width: none;
 }
 
 /*-------STYLE AF FORMULAR------*/

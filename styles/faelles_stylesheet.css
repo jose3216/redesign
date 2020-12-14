@@ -1,7 +1,16 @@
 /*Reset*/
+
 * {
 	margin: 0;
 }
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
 
 p {
 	3em;
@@ -16,13 +25,15 @@ body {
 }
 
 /*Menu linje*/
+
 nav a {
 	width: 100%;
 	color: black;
-	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 1.5em;
 	display: block;
+	top: -8vw;
+	flex-direction: column;
 }
 
 #menuknap {
@@ -33,11 +44,10 @@ nav a {
 
 #box_menu {
 	list-style-type: none;
-	transition: transform 3s;
 	transform-origin: top left;
 }
 
-#logo {
+#logo img {
 	width: 60px;
 	height: 59px;
 }
@@ -50,22 +60,83 @@ nav a {
 	display: none;
 }
 
+footer {
+	background-color: #baacb7;
+	width: 100%;
+	height: 25vh;
+}
+
+footer img {
+	height: 30px;
+	width: 30px;
+}
+
+footer .col {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	position: relative;
+	top: 20px;
+	left: 45%;
+}
+
+#adresse {
+	font-family: 'lato';
+	text-align: center;
+	padding-top: 40px;
+}
+
+#copyright {
+	font-family: 'lato';
+	color: #404040;
+	text-align: center;
+	padding-top: 10px;
+}
+
 /* ----------TABLET----------------*/
-@media only screen and (min-width: 500px) {}
+
+
+/*@media only screen and (min-width: 500px) {}*/
 
 
 /* ----------Desktop----------------*/
+
 @media only screen and (min-width: 600px) {
-	s nav {
-		flex-direction: row;
-		justify-content: space-around;
-		position: fixed;
-		width: 100vw;
+	nav {
+		/*        padding: 80vw;*/
 	}
 
+	ul {
+		padding-left: 100px;
+		padding-top: 10px;
+		float: right;
+	}
+
+	li {
+		float: left;
+		padding: 10px;
+	}
+
+	li a {
+		display: block;
+		padding: 8px;
+	}
+
+	nav {
+		display: inline;
+		justify-content: space-around;
+		position: relative;
+		width: 100%;
+		/*		text-align: justify;*/
+		top: 0;
+	}
+
+	nav a {
+		top: 5vw;
+		padding-right: 20px
+	}
 
 	#menuknap {
 		display: none;
-
 	}
 }
