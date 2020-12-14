@@ -8,7 +8,7 @@ body {
 }
 .col {
     background-color: #bcede2;
-    border-radius: 30px;
+    border-radius: 16px;
     padding: auto 30px #bcede2;
 }
 
@@ -68,7 +68,7 @@ img {
 	}
     .col {
         background-color: #bcede2;
-        border-radius: 30px;
+        border-radius: 16px;
         padding: auto 30px #bcede2;
     }
 
