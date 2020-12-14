@@ -71,14 +71,16 @@ main {
 
 /* Sektion Galleri */
 #galleri .sectionwrapper {
-	background-color: #bcede2;
+	/*	background-color: #bcede2;*/
+	/*	background-color: #79746E;*/
+	background-color: #c6f5ea;
 }
 
 #galleri h2 {
 	text-align: center;
 	padding-top: 3vw;
 	/*	padding-bottom: 3vw;*/
-	/*	color: #DDCCD9;*/
+	/*		color: #DDCCD9;*/
 	color: #2b2b2b;
 }
 
