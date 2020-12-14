@@ -8,7 +8,7 @@ function sidenVises() {
 		const menuknap = document.querySelector("#menuknap");
 		const box_menu = document.querySelector("#box_menu");
 		document.querySelector("#logo").classList.add("toggle");
-
+        window.onscroll = function() {Navbar()};
 		menuknap.addEventListener("click", toggle);
 	} else {
 		/* The viewport is greater than 700 pixels wide */
@@ -30,4 +30,16 @@ function toggle() {
 	} else {
 		document.querySelector("#menuknap").text = "X";
 	}
+}
+
+var Navbar = document.getElementById("Navbar");
+var sticky = Navbar.offsetTop;
+
+
+function Navbar() {
+  if (window.pageYOffset >= sticky) {
+    Navbar.classList.add("sticky")
+  } else {
+    Navbar.classList.remove("sticky");
+  }
 }
