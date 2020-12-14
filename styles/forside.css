@@ -13,10 +13,13 @@ main {
 	min-width: 100%;
 }
 
+
 #splash h1 {
 	position: absolute;
 	color: #ffff;
 	text-align: center;
+	margin-top: -110vw;
+	font-size: 4.5em;
 }
 
 /*Sektion Velkommen*/
@@ -58,7 +61,7 @@ main {
 #citat .sectionwrapper .col {
 	position: relative;
 	text-align: center;
-	top: -50vw;
+	top: -60vw;
 	font-size: 2em;
 }
 
@@ -82,23 +85,32 @@ main {
 }
 
 /*Sektion Åbningstider */
-#aabningstider .sectionwrapper .tider {
+#aabningstider .sectionwrapper .aaben .tider {
 	display: grid;
-	grid-template-columns: 1fr 4fr;
+	grid-template-columns: 1fr 1fr;
 	grid-gap: 2px;
 }
 
-#aabningstider .sectionwrapper .tider .dag {
+#aabningstider .sectionwrapper .aaben .tider h2 {
 	grid-column-start: 1;
 	grid-column-end: 2;
+
+
 }
 
-#aabningstider .sectionwrapper .tider .tid {
+#aabningstider .sectionwrapper .aaben .tider .dag {
+	grid-column-start: 1;
+	grid-column-end: 2;
+
+}
+
+#aabningstider .sectionwrapper .aaben .tider .tid {
 	grid-column-start: 2;
 	grid-column-end: 3;
+
 }
 
-#aabningstider .sectionwrapper .tider {
+#aabningstider .sectionwrapper .aaben {
 	margin-top: 8vw;
 	margin-bottom: 8vw;
 	margin-right: 10vw;
@@ -189,8 +201,8 @@ figcaption {
 	}
 
 	#splash h1 {
-		top: 30vw;
-		left: 25vw;
+		top: 25vw;
+		left: 30vw;
 	}
 
 	/*	Section Velkommen */
@@ -316,17 +328,27 @@ figcaption {
 		margin-top: 2vw;
 	}
 
+	#aabningstider .sectionwrapper .aaben {
+		margin-top: 4vw;
+		margin-left: 5vw;
+		margin-right: 4vw;
+	}
+
+
+	#aabningstider .sectionwrapper .aaben .tider {
+		grid-template-columns: 1fr 2fr;
+		grid-gap: 20px;
+	}
+
 	#aabningstider .sectionwrapper .facade {
 		grid-column-start: 2;
 		grid-column-end: 3;
 
 	}
 
-	#aabningstider .sectionwrapper .tider {
+	#aabningstider .sectionwrapper .aaben .tider {
 		grid-column-start: 1;
 		grid-column-end: 2;
-		margin: 2vw;
-		margin-top: 1vw;
 	}
 
 }
