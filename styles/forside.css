@@ -58,17 +58,25 @@ main {
 }
 
 /*Section citat*/
+#citat .sectionwrapper {
+	margin-bottom: 4vw;
+}
+
 #citat .sectionwrapper .col {
 	position: relative;
 	text-align: center;
 	top: -60vw;
 	font-size: 2em;
+	color: #fff;
+	text-shadow: 1px 1px #2b2b2b;
+
 }
 
 #citat .sectionwrapper .col p {
 	position: absolute;
 	font-size: 1rem;
 	right: 25vw;
+	color: #fff;
 }
 
 /* Sektion Galleri */
@@ -177,22 +185,6 @@ figcaption {
 }
 
 
-/* ----------TABLET----------------*/
-/*
-@media only screen and (min-width: 500px) {
-	#citat .sectionwrapper .col {
-	top: -45vw;
-	font-size: 4em;
-}
-
-#citat .sectionwrapper .col p {
-	font-size: 1rem;
-	right: 25vw;
-}
-}
-*/
-
-
 /* ----------Desktop----------------*/
 @media only screen and (min-width: 600px) {
 
@@ -228,8 +220,12 @@ figcaption {
 	}
 
 	/*	sektion citat */
+	#citat .sectionwrapper {
+		margin-bottom: 0vw;
+	}
+
 	#citat .sectionwrapper .col {
-		top: -30vw;
+		margin-top: 20vw;
 		font-size: 4em;
 	}
 
@@ -278,7 +274,7 @@ figcaption {
 		grid-column-end: 4;
 		grid-row-start: 1;
 		grid-row-end: 2;
-		top: 15vw;
+		top: 10vw;
 
 	}
 
@@ -304,7 +300,7 @@ figcaption {
 		grid-row-start: 2;
 		grid-row-end: 3;
 		position: relative;
-		top: 15vw;
+		top: 10vw;
 	}
 
 	#galleri .sectionwrapper .img4 {
@@ -315,7 +311,6 @@ figcaption {
 		grid-row-end: 3;
 
 	}
-
 
 
 	/*Sektion Åbningstider*/
@@ -352,3 +347,31 @@ figcaption {
 	}
 
 }
+
+/*----------TABLET---------------- */
+@media only screen and (min-width: 500px) {
+
+	#splash h1 {
+		margin-left: 0;
+		margin-top: 20vw;
+		padding: 0;
+	}
+
+	#citat .sectionwrapper {
+		padding-bottom: 0vw;
+	}
+
+	#citat .sectionwrapper .col {
+		top: -55vw;
+		font-size: 4em;
+	}
+
+	#citat .sectionwrapper .col p {
+		font-size: 1rem;
+		right: 25vw;
+	}
+
+	#aabningstider .sectionwrapper .aaben {
+		margin-top: 0vw;
+
+	}
