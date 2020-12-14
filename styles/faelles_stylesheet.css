@@ -82,7 +82,7 @@ footer .col {
 
 @media only screen and (min-width: 600px) {
     nav {
-        padding: 80vw;
+/*        padding: 80vw;*/
     }
     ul {
         padding-left: 100px;
