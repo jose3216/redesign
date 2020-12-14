@@ -4,10 +4,10 @@ main {
 }
 
 body {
-	background-color: #bcede2;
+	background-color: white;
 }
 .col {
-    background-color: white;
+    background-color: #bcede2;
     border-radius: 30px;
 }
 
@@ -65,7 +65,7 @@ img {
 		margin: 2vw;
 	}
     .col {
-        background-color: white;
+        background-color: #bcede2;
         border-radius: 30px;
     }
 
