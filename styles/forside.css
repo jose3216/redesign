@@ -16,8 +16,7 @@ main {
 #splash h1 {
 	position: absolute;
 	color: #ffff;
-	top: 150vw;
-	left: 18vw;
+	text-align: center;
 	font-size: 2em;
 }
 
@@ -78,12 +77,28 @@ main {
 #galleri h2 {
 	text-align: center;
 	padding-top: 3vw;
-	padding-bottom: 3vw;
+	/*	padding-bottom: 3vw;*/
 	/*	color: #DDCCD9;*/
 	color: #2b2b2b;
 }
 
 /*Sektion Åbningstider */
+#aabningstider .sectionwrapper .tider {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-gap: 2px;
+}
+
+#aabningstider .sectionwrapper .tider .dag {
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+#aabningstider .sectionwrapper .tider .tid {
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
 #aabningstider .sectionwrapper .tider {
 	margin-top: 8vw;
 	margin-bottom: 8vw;
@@ -93,9 +108,8 @@ main {
 	border-color: #bcede2;
 	border-radius: 15px;
 	padding: 4vw;
-
-
 }
+
 
 #aabningstider .sectionwrapper .tider h2 {
 	padding-bottom: 1.5vw;
@@ -114,6 +128,7 @@ main {
 	grid-gap: 5px;
 	padding: 5px;
 	overflow-x: scroll;
+	padding-bottom: 10vw;
 }
 
 figure {
@@ -175,7 +190,7 @@ figcaption {
 	}
 
 	#splash h1 {
-		top: 40vw;
+		top: 30vw;
 		left: 45vw;
 	}
 
