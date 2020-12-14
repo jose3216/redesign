@@ -67,6 +67,7 @@ img {
     .col {
         background-color: #bcede2;
         border-radius: 30px;
+        padding: auto 30px #bcede2;
     }
 
 	p {
