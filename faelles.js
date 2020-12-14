@@ -7,8 +7,13 @@ function sidenVises() {
 
 		const menuknap = document.querySelector("#menuknap");
 		const box_menu = document.querySelector("#box_menu");
+<<<<<<< HEAD
+		document.querySelector("#logo").classList.add("toggle");
+        window.onscroll = function() {Navbar()};
+=======
 //		document.querySelector("#logo").classList.add("hidden");
 
+>>>>>>> Kaffe/master
 		menuknap.addEventListener("click", toggle);
 	} else {
 		/* The viewport is greater than 600 pixels wide */
@@ -31,4 +36,16 @@ function toggle() {
 	} else {
 		document.querySelector("#menuknap").text = "X";
 	}
+}
+
+var Navbar = document.getElementById("Navbar");
+var sticky = Navbar.offsetTop;
+
+
+function Navbar() {
+  if (window.pageYOffset >= sticky) {
+    Navbar.classList.add("sticky")
+  } else {
+    Navbar.classList.remove("sticky");
+  }
 }
