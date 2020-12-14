@@ -4,15 +4,32 @@
 	margin: 0;
 }
 
-h1 {}
+/*fællesfont*/
 
-h2 {}
 
-h3 {}
+h1 {
+	@font-face {
+		font-family: 'autographyregular';
+		src: url('autography-webfont.woff2') format('woff2'),
+			url('autography-webfont.woff') format('woff');
+		font-weight: normal;
+		font-style: normal;
+	}
+}
 
-h4 {}
+
+
+
+h2,
+h3,
+h4 {
+	font-family: 'Martel',
+		serif;
+}
 
 p {
+	font-family: 'Lato',
+		sans-serif;
 	3em;
 }
 
