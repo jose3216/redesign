@@ -1,106 +1,119 @@
 /*Reset*/
 
 * {
-	margin: 0;
+    margin: 0;
 }
 
 /*fællesfont*/
+
 h1 {
-	font-family: 'Parisienne', cursive;
-	font-size: 6em;
+    font-family: 'Parisienne', cursive;
+    font-size: 6em;
 }
-
-
-
-
 h2,
 h3,
 h4 {
-	font-family: 'Martel',
-		serif;
+    font-family: 'Martel', serif;
 }
-
 p {
-	font-family: 'Lato',
-		sans-serif;
-	3em;
+    font-family: 'Lato', sans-serif;
+    3em;
 }
-
 img {
-	width: 100%;
+    width: 100%;
 }
-
 body {
-	background-color: white;
+    background-color: white;
 }
 
-/*Menu linje*/
+/*-----Menu linje-------*/
 
 nav a {
-	width: 100%;
-	color: black;
-	text-decoration: none;
-	font-size: 1.5em;
-	display: block;
-	top: -8vw;
-	flex-direction: column;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: block;
+    top: -8vw;
+    flex-direction: column;
 }
-
+ul {
+    /*    padding-left: 100px;*/
+    padding-top: 10px;
+    float: right;
+    position: relative;
+    top: 40px;
+    right: -30px;
+    list-style-type: none;
+}
+li {
+    padding: 10px;
+}
+li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+}
+li a:hover {
+    color: #ea88cc;
+}
 #menuknap {
-	display: inline-block;
-	cursor: pointer;
-	font-size: 3em;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 3em;
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
 }
-
-#box_menu {
-	list-style-type: none;
-	transform-origin: top left;
+#menuknap:hover {
+    color: #ea88cc;
 }
-
+#menu {
+    list-style-type: none;
+    transition: transform 3s;
+    transform-origin: top left;
+}
 #logo img {
-	width: 60px;
-	height: 59px;
+    width: 60px;
+    height: 59px;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: left;
 }
-
-.toggle {
-	display: none;
-}
-
 .hidden {
-	display: none;
+    display: none;
+    transform: scale(0);
 }
+
+/*-------style af footer-----*/
 
 footer {
-	background-color: #baacb7;
-	width: 100%;
-	height: 25vh;
+    background-color: #baacb7;
+    width: 100%;
+    height: 25vh;
 }
-
 footer img {
-	height: 30px;
-	width: 30px;
+    height: 30px;
+    width: 30px;
 }
-
 footer .col {
-	display: flex;
-	flex-direction: row;
-	gap: 20px;
-	position: relative;
-	top: 20px;
-	left: 45%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    top: 20px;
+    left: 45%;
 }
-
 #adresse {
-	font-family: 'lato';
-	text-align: center;
-	padding-top: 40px;
+    font-family: 'lato';
+    text-align: center;
+    padding-top: 40px;
 }
-
 #copyright {
-	font-family: 'lato';
-	color: #404040;
-	text-align: center;
-	padding-top: 10px;
+    font-family: 'lato';
+    color: #404040;
+    text-align: center;
+    padding-top: 10px;
 }
 
 /* ----------TABLET----------------*/
@@ -111,42 +124,45 @@ footer .col {
 
 /* ----------Desktop----------------*/
 
-@media only screen and (min-width: 600px) {
-	nav {
-		/*        padding: 80vw;*/
-	}
-
-	ul {
-		padding-left: 100px;
-		padding-top: 10px;
-		float: right;
-	}
-
-	li {
-		float: left;
-		padding: 10px;
-	}
-
-	li a {
-		display: block;
-		padding: 8px;
-	}
-
-	nav {
-		display: inline;
-		justify-content: space-around;
-		position: relative;
-		width: 100%;
-		/*		text-align: justify;*/
-		top: 0;
-	}
-
-	nav a {
-		top: 5vw;
-		padding-right: 20px
-	}
-
-	#menuknap {
-		display: none;
-	}
+@media only screen and (min-width: 680px) {
+    nav {
+        /*        padding: 80vw;*/
+    }
+    ul {
+        padding-left: 100px;
+        padding-top: 10px;
+        float: right;
+        position: relative;
+        top: -10px;
+        right: 20px;
+    }
+    li {
+        float: left;
+        padding: 10px;
+    }
+    li a {
+        display: block;
+        padding: 8px;
+    }
+    nav {
+        display: inline;
+        justify-content: space-around;
+        position: relative;
+        width: 100%;
+        top: 0;
+    }
+    nav a {
+        top: 5vw;
+        padding-right: 20px
+    }
+    #menuknap {
+        display: none;
+    }
+    #menu {
+        transform: translateX(0);
+        display: contents;
+    }
+    #menu li {
+        display: inline-block;
+    }
 }

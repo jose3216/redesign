@@ -2,168 +2,166 @@
 <html lang="da">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="styles/faelles_stylesheet.css">
-	<link rel="stylesheet" href="styles/kontakt.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/faelles_stylesheet.css">
+    <link rel="stylesheet" href="styles/kontakt.css">
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Martel&family=Parisienne&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Martel&family=Parisienne&display=swap" rel="stylesheet">
 
-	<!--Favicon-->
-	<link rel="apple-touch-icon" sizes="180x180" href="img/circle/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/circle/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/circle/favicon-16x16.png">
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/circle/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/circle/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/circle/favicon-16x16.png">
 
-	<link rel="manifest" href="img/circle/site.webmanifest">
-	<link rel="mask-icon" href="img/circle/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#4bd3b9">
-	<meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="img/circle/site.webmanifest">
+    <link rel="mask-icon" href="img/circle/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#4bd3b9">
+    <meta name="theme-color" content="#ffffff">
 
-	<title>Aurelia kaffe</title>
+    <title>Aurelia kaffe</title>
 </head>
 
 <body>
-	<header>
-		<nav>
-			<div id="blur"></div>
-			<div id="menuknap">☰</div>
-			<div id="box_menu">
-				<li>
-					<a href="index.html" id="logo"><img src="img/aurelia_logo_logo_a.png" alt="LOGO"></a>
-				</li>
-				<ul>
-					<li><a href="index.html">Forside</a>
-					<li><a href="produkt.html">Menu</a></li>
-					<li><a href="om.html">Om os</a></li>
-					<li><a href="kontakt.html">Kontakt</a></li>
-				</ul>
-			</div>
+    <header>
 
-		</nav>
-	</header>
+        <a href="index.html" id="logo"><img src="img/aurelia_logo_logo_a.png" alt="LOGO"></a>
+        <nav>
+            <div id="menuknap">☰</div>
+            <div id="menu" class="hidden">
+                <ul>
+                    <li><a href="index.html">Forside</a>
+                        <li><a href="produkt.html">Menu</a></li>
+                        <li><a href="om.html">Om os</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </div>
 
-	<section id="splash">
+        </nav>
+    </header>
 
-		<h2>Kontakt mig</h2>
+    <section id="splash">
 
-	</section>
+        <h2>Kontakt mig</h2>
 
-	<section id="formular">
-		<div class="sectionwrapper">
-			<!----------------FORM FORMULAR---------------->
-			<div class="col">
+    </section>
 
-				<H3>Skriv en besked til mig</H3>
+    <section id="formular">
+        <div class="sectionwrapper">
+            <!----------------FORM FORMULAR---------------->
+            <div class="col">
 
-				<form action="tak.html" name="kontakt" netlify>
-					<div class="form-felt">
-						<label for="navn">
-							<p class="overskrift">Navn:</p>
-							<input placeholder="fx Tilde Jensen" name="navn" type="text" required>
-						</label>
-					</div>
+                <H3>Skriv en besked til mig</H3>
 
-					<div class="form-felt">
-						<label for="email">
-							<p class="overskrift">E-mail:</p>
-							<input placeholder="fx Tilde@jensen.dk" name="email" type="text" required>
-						</label>
-					</div>
+                <form action="tak.html" name="kontakt" netlify>
+                    <div class="form-felt">
+                        <label for="navn">
+                            <p class="overskrift">Navn:</p>
+                            <input placeholder="fx Tilde Jensen" name="navn" type="text" required>
+                        </label>
+                    </div>
 
-					<div class="form-felt">
-						<label for="emne">
-							<p class="overskrift">Emne:</p>
-							<input placeholder="Hvad omhandler din besked om?" name="emne" type="text" required>
-						</label>
-					</div>
+                    <div class="form-felt">
+                        <label for="email">
+                            <p class="overskrift">E-mail:</p>
+                            <input placeholder="fx Tilde@jensen.dk" name="email" type="text" required>
+                        </label>
+                    </div>
 
-					<div class="form-felt">
-						<label for="besked">
-							<p class="overskrift">Besked:</p>
-							<textarea placeholder="Hvad har du i tankerne?" name="besked" cols="30" rows="7" style="resize: none"></textarea>
-						</label>
-					</div>
+                    <div class="form-felt">
+                        <label for="emne">
+                            <p class="overskrift">Emne:</p>
+                            <input placeholder="Hvad omhandler din besked om?" name="emne" type="text" required>
+                        </label>
+                    </div>
 
-					<button>Send</button>
+                    <div class="form-felt">
+                        <label for="besked">
+                            <p class="overskrift">Besked:</p>
+                            <textarea placeholder="Hvad har du i tankerne?" name="besked" cols="30" rows="7" style="resize: none"></textarea>
+                        </label>
+                    </div>
 
-				</form>
-			</div>
-			<div class="col">
-				<img src="kontakt_illustration.svg" alt="illustration af kundeservice">
-			</div>
-		</div>
-	</section>
+                    <button>Send</button>
 
-	<section id="socialmedia">
-		<p id="tekst">For mere information følg med på min Instagram og Facebook-side, og ved yderligere spørgsmål, kan du kontakte mig på telefon eller skrive en besked til mig.</p>
-		<div class="sectionwrapper">
+                </form>
+            </div>
+            <div class="col">
+                <img src="kontakt_illustration.svg" alt="illustration af kundeservice">
+            </div>
+        </div>
+    </section>
 
-			<div class="top">
+    <section id="socialmedia">
+        <p id="tekst">For mere information følg med på min Instagram og Facebook-side, og ved yderligere spørgsmål, kan du kontakte mig på telefon eller skrive en besked til mig.</p>
+        <div class="sectionwrapper">
 
-				<img id="ig_ikon" src="img/instgram.png" alt="instagram ikon">
+            <div class="top">
 
-				<img id="fb_ikon" src="img/facebook.png" alt="facebook ikon">
+                <img id="ig_ikon" src="img/instgram.png" alt="instagram ikon">
 
-				<img id="tel_ikon" src="img/telefon.png" alt="telefon ikon">
+                <img id="fb_ikon" src="img/facebook.png" alt="facebook ikon">
 
-			</div>
+                <img id="tel_ikon" src="img/telefon.png" alt="telefon ikon">
 
-			<div class="bottom">
-				<div id="col1">
-					<p class="medie">Instagram</p>
-					<p class="medienavn">@aureliakaffe</p>
-				</div>
-				<div id="col2">
-					<p class="medie">Facebook</p>
-					<p class="medienavn">@aureliakaffe</p>
-				</div>
-				<div id="col3">
-					<p class="medie">Telefon</p>
-					<p class="medienavn">+45 81 44 52 12</p>
-				</div>
-			</div>
+            </div>
+
+            <div class="bottom">
+                <div id="col1">
+                    <p class="medie">Instagram</p>
+                    <p class="medienavn">@aureliakaffe</p>
+                </div>
+                <div id="col2">
+                    <p class="medie">Facebook</p>
+                    <p class="medienavn">@aureliakaffe</p>
+                </div>
+                <div id="col3">
+                    <p class="medie">Telefon</p>
+                    <p class="medienavn">+45 81 44 52 12</p>
+                </div>
+            </div>
 
 
 
 
-		</div>
-	</section>
+        </div>
+    </section>
 
-	<section id="find">
-		<div class="sectionwrapper">
-			<div class="top">
-				<div id="findmig">
-					<h3>Find mig</h3>
-					<img src="Point.svg" alt="knappenål">
-				</div>
+    <section id="find">
+        <div class="sectionwrapper">
+            <div class="top">
+                <div id="findmig">
+                    <h3>Find mig</h3>
+                    <img src="Point.svg" alt="knappenål">
+                </div>
 
-				<p>Sankt Kjelds Plads 6, st. th. 2100 København Ø</p>
-			</div>
-			<div class="bottom">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.7448747777644!2d12.563008821223535!3d55.71080628044661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652525f2d562ba3%3A0x7bf53e47e67e20d1!2sAurelia!5e0!3m2!1sda!2sdk!4v1607506229035!5m2!1sda!2sdk" width="1920" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-			</div>
-		</div>
-	</section>
+                <p>Sankt Kjelds Plads 6, st. th. 2100 København Ø</p>
+            </div>
+            <div class="bottom">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.7448747777644!2d12.563008821223535!3d55.71080628044661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652525f2d562ba3%3A0x7bf53e47e67e20d1!2sAurelia!5e0!3m2!1sda!2sdk!4v1607506229035!5m2!1sda!2sdk" width="1920" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </section>
 
-	<footer>
-		<div class="col">
-			<a href="https://www.instagram.com/aureliakaffe/?hl=da">
-				<img src="img/socialemedier_ikon-03-kopi.png" alt="ikon">
-			</a>
-			<a href="https://www.facebook.com/aureliakaffe/">
-				<img src="img/socialemedier_ikon-02-kopi.png" alt="ikon">
-			</a>
-			<a href="kontakt.html">
-				<img src="img/Mail-icon-kopi.png" alt="ikon">
-			</a>
-		</div>
-		<p id="adresse">Sankt Kjelds Plads 6, st. th. 2100 København Ø</p>
-		<p id="copyright">©Copyright. All rights reserved</p>
-	</footer>
+    <footer>
+        <div class="col">
+            <a href="https://www.instagram.com/aureliakaffe/?hl=da">
+                <img src="img/socialemedier_ikon-03-kopi.png" alt="ikon">
+            </a>
+            <a href="https://www.facebook.com/aureliakaffe/">
+                <img src="img/socialemedier_ikon-02-kopi.png" alt="ikon">
+            </a>
+            <a href="kontakt.html">
+                <img src="img/Mail-icon-kopi.png" alt="ikon">
+            </a>
+        </div>
+        <p id="adresse">Sankt Kjelds Plads 6, st. th. 2100 København Ø</p>
+        <p id="copyright">©Copyright. All rights reserved</p>
+    </footer>
 
 
-	<script src="faelles.js"></script>
+    <script src="faelles.js"></script>
 </body>
 
 
