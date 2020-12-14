@@ -8,15 +8,16 @@ body {
 }
 .col {
     background-color: #bcede2;
-    border-radius: 30px;
+    border-radius: 16px;
+    padding: auto 30px #bcede2;
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 3.2rem;
 }
 
 h2 {
-	font-size: 1.8rem;
+	font-size: 2rem;
 	padding-left: 10px;
 	padding-bottom: 25px;
 	padding-top: 20px;
@@ -41,6 +42,7 @@ p {
 }
 
 img {
+    width: 96%;
 	padding-top: 10px;
 	padding-bottom: 25px;
 	padding-left: 10px;
@@ -66,7 +68,8 @@ img {
 	}
     .col {
         background-color: #bcede2;
-        border-radius: 30px;
+        border-radius: 16px;
+        padding: auto 30px #bcede2;
     }
 
 	p {
@@ -117,7 +120,7 @@ img {
 	}
 
 	img {
-		width: 100%;
+		width: 92%;
 	}
 
 	/* ----Tablet version----*/
