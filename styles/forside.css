@@ -11,7 +11,8 @@ main {
 #splash {
 	max-width: none;
 	margin: 0 0;
-	padding-bottom: 10vw;
+	padding-bottom: 20vw;
+	padding-top: 20vw;
 }
 
 #splash video {
@@ -49,8 +50,8 @@ main {
 
 /*sektion muligheder*/
 #muligheder {
-	padding-top: 5vw;
-	padding-bottom: 5vw;
+	padding-top: 10vw;
+	padding-bottom: 10vw;
 }
 
 #muligheder a {
@@ -64,7 +65,7 @@ main {
 
 /*Section citat*/
 #citat .sectionwrapper {
-	margin-bottom: 4vw;
+	margin-bottom: -30vw;
 }
 
 #citat .sectionwrapper .col {
@@ -107,9 +108,6 @@ main {
 #aabningstider .sectionwrapper .aaben .tider h2 {
 	grid-column-start: 1;
 	grid-column-end: 2;
-
-
-
 }
 
 #aabningstider .sectionwrapper .aaben .tider .dag {
@@ -194,14 +192,15 @@ figcaption {
 /*----------TABLET---------------- */
 @media only screen and (min-width: 600px) {
 
-	#splash h1 {
-		margin-top: -50vw;
-		margin-left: 20vw;
-		padding: 0;
+	#splash {
+		padding-bottom: 20vw;
+		padding-top: 0vw;
 	}
 
-	#citat .sectionwrapper {
-		padding-bottom: 0vw;
+	#splash h1 {
+		margin-top: -35vw;
+		padding: 0;
+		font-size: 5em;
 	}
 
 	#citat .sectionwrapper .col {
@@ -225,11 +224,11 @@ figcaption {
 		#splash {
 			margin-left: 0;
 			margin-top: 0;
+			padding-bottom: 30vw;
 		}
 
 		#splash h1 {
 			margin-top: -35vw;
-			margin-left: 20vw;
 			font-size: 8em;
 		}
 
@@ -256,9 +255,6 @@ figcaption {
 		}
 
 		/*	sektion citat */
-		#citat .sectionwrapper {
-			margin-bottom: 0vw;
-		}
 
 		#citat .sectionwrapper .col {
 			margin-top: 20vw;
