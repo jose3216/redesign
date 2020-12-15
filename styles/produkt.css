@@ -8,6 +8,7 @@ body {
   display: flex;
 }
 
+@media only screen and (min-width: 800px) {
 #Navbar {
   overflow: hidden;
 }
@@ -414,6 +415,58 @@ object-fit: contain;
     display: inline;
 }
 
+    #text_pic_1{
+        display: none;
+    }
+    #text_pic_2{
+        display: none;
+    }
+    #text_pic_3{
+        display: none;
+    }
+    #text_pic_4{
+        display: none;
+    }
+    #text_pic_5{
+        display: none;
+    }
+    #text_pic_6{
+        display: none;
+    }
+    #text_pic_7{
+        display: none;
+    }
+    #text_pic_8{
+        display: none;
+    }
+    #text_pic_9{
+        display: none;
+    }
+    #text_pic_10{
+        display: none;
+    }
+    #text_pic_11{
+        display: none;
+    }
+    #text_pic_12{
+        display: none;
+    }
+    #text_pic_13{
+        display: none;
+    }
+    #text_pic_14{
+        display: none;
+    }
+    #text_pic_15{
+        display: none;
+    }
+    #text_pic_16{
+        display: none;
+    }
+    #text_pic_17{
+        display: none;
+    }
+
 img {
   width: 250px;
   height: 250px;
@@ -438,3 +491,51 @@ footer {
      top: 260vw;
     height: 28vh;
 }
+}
+
+@media only screen and (max-width: 500px) {
+    #Kaffe{
+
+        width: 150px;
+        position: absolute;
+        top: 122vw;
+        left: 24vw;
+		}
+
+    #Kage{
+
+        width: 150px;
+        position: absolute;
+        top: 20vw;
+        left: 10vw;
+		}
+    #Names_1 {
+        width: 150px;
+        position: absolute;
+        top: 140vw;
+        left: 10vw;
+    }
+    #text_1 {
+        width: 50vw;
+        position: absolute;
+        top: 146vw;
+        left: 10vw;
+
+    }
+    #text_pic_1 {
+        width: 50vw;
+        position: absolute;
+        top: 45vw;
+        left: 10vw;
+    }
+    #Names_2 {
+
+    }
+    #Names_3 {
+
+    }
+    #Names_4 {
+
+    }
+
+	}
