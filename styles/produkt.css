@@ -258,14 +258,13 @@ object-fit: contain;
     top: 8vw;
     left: 4vw;
     font-size: 3vw;
-
 }
 
 #Kage {
     position: absolute;
     top: 138vw;
     left: 20vw;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 #text_1 {
@@ -363,7 +362,7 @@ object-fit: contain;
     display: inline;
 }
 #text_12 {
-   top: 206    vw;
+   top: 206vw;
     left: 36vw;
     position: absolute;
     width: 30vw;
