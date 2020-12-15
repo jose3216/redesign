@@ -2,208 +2,193 @@
 <html lang="da">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/faelles_stylesheet.css">
-    <link rel="stylesheet" href="styles/forside.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/faelles_stylesheet.css">
+	<link rel="stylesheet" href="styles/forside.css">
 
-    <!--font-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Martel&family=Parisienne&display=swap" rel="stylesheet">
+	<!--font-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&family=Martel&family=Parisienne&display=swap" rel="stylesheet">
 
 
-    <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/circle/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/circle/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/circle/favicon-16x16.png">
+	<!--Favicon-->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/circle/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/circle/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/circle/favicon-16x16.png">
 
-    <link rel="manifest" href="img/circle/site.webmanifest">
-    <link rel="mask-icon" href="img/circle/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#4bd3b9">
-    <meta name="theme-color" content="#ffffff">
-    <title>Aurelia</title>
+	<link rel="manifest" href="img/circle/site.webmanifest">
+	<link rel="mask-icon" href="img/circle/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#4bd3b9">
+	<meta name="theme-color" content="#ffffff">
+	<title>Aurelia</title>
 </head>
 
 
 <body>
-    <header>
+	<header>
+		<nav>
+			<div id="menuknap">☰</div>
+			<div id="box_menu">
+				<li><a href="index.html" id="logo"><img src="img/aurelia_logo_logo_a.png" alt="LOGO"></a></li>
+				<ul>
+					<li><a href="index.html">Forside</a>
+					<li><a href="produkt.html">Menu</a></li>
+					<li><a href="om.html">Om os</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
 
-        <a href="index.html" id="logo"><img src="img/aurelia_logo_logo_a.png" alt="LOGO"></a>
-        <nav>
-            <div id="menuknap">☰</div>
-            <div id="menu" class="hidden">
-                <ul>
-                    <li><a href="index.html">Forside</a>
-                        <li><a href="produkt.html">Menu</a></li>
-                        <li><a href="om.html">Om os</a></li>
-                        <li><a href="kontakt.html">Kontakt</a></li>
-                </ul>
-            </div>
+	<main>
+		<!--section SPLASH -->
+		<section id="splash" class="video">
+			<video id="bgvid" poster="splashvideo.mp4" playsinline="" autoplay="" muted="" loop="">
+				<source src="splashvideo.mp4" type="video/mp4">
+			</video>
 
-        </nav>
-    </header>
+			<div class="aurelia">
+				<h1>Aurelia Kaffebar</h1>
+			</div>
+		</section>
 
-    <main>
-        <!--section SPLASH -->
-        <section id="splash" class="video">
+		<!--section Velkommen -->
+		<section id="velkommen">
+			<div class="sectionwrapper">
+				<div class="col">
+					<img src="img/2.4.1_takaffe_hoj.jpg" alt="">
+				</div>
+				<div class="tekst">
+					<h2>Kom indenfor</h2>
+					<p>Hos Aurelia Kaffebar kan du varme dig på lækker økologisk kaffe og hjertelig betjening. Alt vores kaffe fås med eller uden koffein. Skal den lille lækkersult stilles har vi massere af hjemmebag, hvor du bla. kan finde vores sukkerfrie muffins eller sukkerige macaroons. <br>
+						Vi står altid klar bag disken til at give dig den bedste start, slut eller pause på dagen. </p>
+				</div>
+			</div>
+		</section>
 
-            <video id="bgvid" poster="splashvideo.mp4" playsinline="" autoplay="" muted="" loop="">
-                <source src="splashvideo.mp4" type="video/mp4">
-            </video>
+		<!--section muligheder -->
+		<section id="muligheder">
+			<div class="sectionwrapper">
+				<figure>
+					<img src="img/2.5.1_snemandssuppe.jpg" alt="">
+					<a href="produkt.html">
+						<figcaption>Se vores udvalg</figcaption>
+					</a>
+				</figure>
+				<figure>
+					<img src="img/1.4.2_kaffe-bred.jpg" alt="">
+					<a href="om.html">
+						<figcaption>Den gode kvalitet</figcaption>
+					</a>
+				</figure>
 
-            <div class="more_knap">
-                <h1>Aurelia Kaffebar</h1>
-            </div>
-        </section>
-
-        <!--section Velkommen -->
-        <section id="velkommen">
-            <div class="sectionwrapper">
-                <div class="col">
-                    <img src="img/2.4.1_takaffe_hoj.jpg" alt="">
-                </div>
-                <div class="tekst">
-                    <h2>Kom indenfor</h2>
-                    <p>Hos Aurelia Kaffebar kan du varme dig på lækker økologisk kaffe og hjertelig betjening. Alt vores kaffe fås med eller uden koffein. Skal den lille lækkersult stilles har vi massere af hjemmebag, hvor du bla. kan finde vores sukkerfrie muffins eller sukkerige macaroons.
-                        <br> Vi står altid klar bag disken til at give dig den bedste start, slut eller pause på dagen. </p>
-                </div>
-            </div>
-        </section>
-
-        <!--section muligheder -->
-        <section id="muligheder">
-            <div class="sectionwrapper">
-                <figure>
-                    <img src="img/2.5.1_snemandssuppe.jpg" alt="">
-                    <a href="produkt.html">
-                        <figcaption>Se vores udvalg</figcaption>
-                    </a>
-                </figure>
-                <figure>
-                    <img src="img/1.4.2_kaffe-bred.jpg" alt="">
-                    <a href="om.html">
-                        <figcaption>Den gode kvalitet</figcaption>
-                    </a>
-                </figure>
-
-                <figure>
-                    <img src="img/1.1.1_vindue.jpg" alt="">
-                    <a href="#aabningstider">
-                        <figcaption>Se åbningstider</figcaption>
-                    </a>
-                </figure>
-                <figure>
-                    <img src="img/2.4.2_takaffe_bred.jpg" alt="">
-                    <a href="produkt.html">
-                        <figcaption>Kaffe To-go</figcaption>
-                    </a>
-                </figure>
-            </div>
-        </section>
+				<figure>
+					<img src="img/1.1.1_vindue.jpg" alt="">
+					<a href="#aabningstider">
+						<figcaption>Se åbningstider</figcaption>
+					</a>
+				</figure>
+				<figure>
+					<img src="img/2.4.2_takaffe_bred.jpg" alt="">
+					<a href="produkt.html">
+						<figcaption>Kaffe To-go</figcaption>
+					</a>
+				</figure>
+			</div>
+		</section>
 
 
-        <!--section citat -->
-        <section id="citat">
-            <div class="sectionwrapper">
-                <img src="img/1.2.6_lysekrone_bred.jpg" alt="Nær billede lysekrone">
-                <div class="col">
-                    <h2>"Kaffe med kærlighed"</h2>
-                    <p>-kunde</p>
-                </div>
-            </div>
-        </section>
+		<!--section citat -->
+		<section id="citat">
+			<div class="sectionwrapper">
+				<img src="img/1.2.6_lysekrone_bred.jpg" alt="Nær billede lysekrone">
+				<div class="col">
+					<h2>"Kaffe med kærlighed"</h2>
+					<p>-kunde</p>
+				</div>
+			</div>
+		</section>
 
 
-        <!--section galleri -->
-        <section id="galleri">
-            <div class="sectionwrapper">
-                <div class="img1">
-                    <img src="img/1.3.3_macaroons.jpg" alt="macaroons">
-                </div>
-                <div class="text1">
-                    <h2>På farten</h2>
-                </div>
-                <div class="img2">
-                    <img src="img/2.4.1_takaffe_hoej.jpg" alt="take away kop">
-                </div>
-                <div class="img3">
-                    <img src="img/1.1.6_gynge.jpg" alt="fin hængegynge med lys og blomster rundt om">
-                </div>
-                <div class="text2">
-                    <h2>Ren hygge</h2>
-                </div>
-                <div class="img4">
-                    <img src="img/2.4.2_kaffekunst.jpg" alt="kopper med kaffebønner i">
-                </div>
-            </div>
-        </section>
+		<!--section galleri -->
+		<section id="galleri">
+			<div class="sectionwrapper">
+				<div class="img1">
+					<img src="img/1.3.3_macaroons.jpg" alt="macaroons">
+				</div>
+				<div class="text1">
+					<h2>På farten</h2>
+				</div>
+				<div class="img2">
+					<img src="img/2.4.1_takaffe_hoej.jpg" alt="take away kop">
+				</div>
+				<div class="img3">
+					<img src="img/1.1.6_gynge.jpg" alt="fin hængegynge med lys og blomster rundt om">
+				</div>
+				<div class="text2">
+					<h2>Ren hygge</h2>
+				</div>
+				<div class="img4">
+					<img src="img/2.4.2_kaffekunst.jpg" alt="kopper med kaffebønner i">
+				</div>
+			</div>
+		</section>
 
 
-        <!--section aabningstider -->
-        <section id="aabningstider">
-            <div class="sectionwrapper">
-                <div class="aaben">
-                    <h2>Åbningstider</h2>
-                    <div class="tider">
-                        <div class="dag">
-                            <p>Mandag
-                                <br>Tirsdag
-                                <br>Onsdag
-                                <br>Tosdag
-                                <br>Fredag
-                                <br>Lørdag
-                                <br>Søndag</p>
-                        </div>
-                        <div class="tid">
-                            <p>LUKKET
-                                <br>08:30 - 17:00
-                                <br>08:30 - 17:00
-                                <br>08:30 - 17:00
-                                <br>08:30 - 15:00
-                                <br>LUKKET
-                                <br>11:00 - 17:00</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="facade"><img src="img/1.1.10_facade_bred.jpg" alt=""></div>
-            </div>
-        </section>
+		<!--section aabningstider -->
+		<section id="aabningstider">
+			<div class="sectionwrapper">
+				<div class="aaben">
+					<h2>Åbningstider</h2>
+					<div class="tider">
+						<div class="dag">
+							<p>Mandag <br>Tirsdag <br>Onsdag <br>Tosdag <br>Fredag <br>Lørdag <br>Søndag</p>
+						</div>
+						<div class="tid">
+							<p>LUKKET <br>08:30 - 17:00 <br>08:30 - 17:00 <br>08:30 - 17:00 <br>08:30 - 15:00 <br>LUKKET <br>11:00 - 17:00</p>
+						</div>
+					</div>
+				</div>
+				<div class="facade"><img src="img/1.1.10_facade_bred.jpg" alt=""></div>
+			</div>
+		</section>
 
 
-        <!--section instagram -->
-        <section id="instagram">
-            <h3>Følg med på Instagram</h3>
-            <div class="sectionwrapper">
-                <img src="img/insta1.png" alt="Julekop med kaffe og skum">
+		<!--section instagram -->
+		<section id="instagram">
+			<h3>Følg med på Instagram</h3>
+			<div class="sectionwrapper">
+				<img src="img/insta1.png" alt="Julekop med kaffe og skum">
 
-                <img src="img/insta2.png" alt="Advendtskrans med 2 tændte lys">
+				<img src="img/insta2.png" alt="Advendtskrans med 2 tændte lys">
 
-                <img src="img/insta3.png" alt="Cookies i juleindpakning">
+				<img src="img/insta3.png" alt="Cookies i juleindpakning">
 
-                <img src="img/insta4.png" alt="Advendtskrans med 1 tændt lys">
+				<img src="img/insta4.png" alt="Advendtskrans med 1 tændt lys">
 
-                <img src="img/insta5.png" alt="Tavle, der informere om lukning">
+				<img src="img/insta5.png" alt="Tavle, der informere om lukning">
 
-                <img src="img/insta6.png" alt="Julekakao med julestok og skumfiduser">
+				<img src="img/insta6.png" alt="Julekakao med julestok og skumfiduser">
 
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="col">
-            <a href="https://www.instagram.com/aureliakaffe/?hl=da">
-                <img src="img/socialemedier_ikon-03-kopi.png" alt="ikon">
-            </a>
-            <a href="https://www.facebook.com/aureliakaffe/">
-                <img src="img/socialemedier_ikon-02-kopi.png" alt="ikon">
-            </a>
-            <a href="kontakt.html">
-                <img src="img/Mail-icon-kopi.png" alt="ikon">
-            </a>
-        </div>
-        <p id="adresse">Sankt Kjelds Plads 6, st. th. 2100 København Ø</p>
-        <p id="copyright">©Copyright. All rights reserved</p>
-    </footer>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="col">
+			<a href="https://www.instagram.com/aureliakaffe/?hl=da">
+				<img src="img/socialemedier_ikon-03-kopi.png" alt="ikon">
+			</a>
+			<a href="https://www.facebook.com/aureliakaffe/">
+				<img src="img/socialemedier_ikon-02-kopi.png" alt="ikon">
+			</a>
+			<a href="kontakt.html">
+				<img src="img/Mail-icon-kopi.png" alt="ikon">
+			</a>
+		</div>
+		<p id="adresse">Sankt Kjelds Plads 6, st. th. 2100 København Ø</p>
+		<p id="copyright">©Copyright. All rights reserved</p>
+	</footer>
 
 </body>
 
