@@ -37,7 +37,7 @@ body {
 
 .contaniner {
     top: 16vw;
-    left: 10vw;
+    left: 5vw;
   position: absolute;
   -moz-flex-direction: ;
   -ms-flex-direction: ;
@@ -65,7 +65,7 @@ object-fit: contain;
 
 .contaniner3 {
     top: 140vw;
-    left: 6vw;
+    left: 1vw;
   position: absolute;
   margin-top: 200px;
   max-width: 300px;
@@ -89,7 +89,7 @@ object-fit: contain;
 }
 
 #Names_1 {
-    left: 36vw;
+    left: 32vw;
     top: 22vw;
     position: absolute;
     width: 10vw;
@@ -99,7 +99,7 @@ object-fit: contain;
 
 }
 #Names_2 {
-    left: 36vw;
+    left: 32vw;
     top: 46vw;
     position: absolute;
     width: 10vw;
@@ -110,7 +110,7 @@ object-fit: contain;
 }
 
 #Names_3 {
-    left: 36vw;
+    left: 32vw;
     top: 70vw;
     position: absolute;
     width: 10vw;
@@ -120,7 +120,7 @@ object-fit: contain;
 }
 
 #Names_4 {
-    left: 36vw;
+    left: 32vw;
     top: 94vw;
     position: absolute;
     width: 10vw;
@@ -130,7 +130,7 @@ object-fit: contain;
 }
 
 #Names_5 {
-    left: 36vw;
+    left: 32vw;
     top: 118vw;
     position: absolute;
     width: 10vw;
@@ -179,7 +179,7 @@ object-fit: contain;
     margin: 0vw;
 }
 #Names_10 {
-    left: 36vw;
+    left: 32vw;
     top: 158vw;
     position: absolute;
     width: 10vw;
@@ -188,7 +188,7 @@ object-fit: contain;
     margin: 0vw;
 }
 #Names_11 {
-    left: 36vw;
+    left: 32vw;
     top: 182vw;
     position: absolute;
     width: 10vw;
@@ -197,7 +197,7 @@ object-fit: contain;
     margin: 0vw;
 }
 #Names_12 {
-    left: 36vw;
+    left: 32vw;
     top: 204vw;
     position: absolute;
     width: 10vw;
@@ -207,7 +207,7 @@ object-fit: contain;
 }
 
 #Names_13 {
-    left: 36vw;
+    left: 32vw;
     top: 226vw;
     position: absolute;
     width: 10vw;
@@ -217,7 +217,7 @@ object-fit: contain;
 }
 
 #Names_14 {
-    left: 58vw;
+    left: 54vw;
     top: 169vw;
     position: absolute;
     width: 10vw;
@@ -226,7 +226,7 @@ object-fit: contain;
     margin: 0vw;
 }
 #Names_15 {
-    left: 58vw;
+    left: 54vw;
     top: 192vw;
     position: absolute;
     width: 10vw;
@@ -235,7 +235,7 @@ object-fit: contain;
     margin: 0vw;
 }
 #Names_16 {
-    left: 58vw;
+    left: 54vw;
     top: 214vw;
     position: absolute;
     width: 10vw;
@@ -244,7 +244,7 @@ object-fit: contain;
     margin: 0vw;
 }
 #Names_17 {
-    left: 58vw;
+    left: 54vw;
     top: 238vw;
     position: absolute;
     width: 10vw;
@@ -268,7 +268,7 @@ object-fit: contain;
 }
 
 #text_1 {
-   left: 36vw;
+   left: 32vw;
     top: 24vw;
     position: absolute;
     width: 30vw;
@@ -286,7 +286,7 @@ object-fit: contain;
 }
 
 #text_3 {
-   left: 36vw;
+   left: 32vw;
     top: 48vw;
     position: absolute;
     width: 30vw;
@@ -303,7 +303,7 @@ object-fit: contain;
 }
 
 #text_5 {
-    left: 36vw;
+    left: 32vw;
     top: 72vw;
     position: absolute;
     width: 30vw;
@@ -322,7 +322,7 @@ object-fit: contain;
 
 #text_7 {
     top: 96vw;
-    left: 36vw;
+    left: 32vw;
     position: absolute;
     width: 30vw;
     height: 5vw;
@@ -338,7 +338,7 @@ object-fit: contain;
 }
 #text_9 {
     top: 120vw;
-    left: 36vw;
+    left: 32vw;
     position: absolute;
     width: 30vw;
     height: 5vw;
@@ -347,7 +347,7 @@ object-fit: contain;
 
 #text_10 {
    top: 160vw;
-    left: 36vw;
+    left: 32vw;
     position: absolute;
     width: 30vw;
     height: 5vw;
@@ -355,7 +355,7 @@ object-fit: contain;
 }
 #text_11 {
    top: 184vw;
-    left: 36vw;
+    left: 32vw;
     position: absolute;
     width: 30vw;
     height: 5vw;
@@ -363,7 +363,7 @@ object-fit: contain;
 }
 #text_12 {
    top: 206vw;
-    left: 36vw;
+    left: 32vw;
     position: absolute;
     width: 30vw;
     height: 5vw;
@@ -372,7 +372,7 @@ object-fit: contain;
 
 #text_13 {
    top: 228vw;
-    left: 36vw;
+    left: 32vw;
     position: absolute;
     width: 30vw;
     height: 5vw;
@@ -380,7 +380,7 @@ object-fit: contain;
 }
 
 #text_14 {
-    left: 42vw;
+    left: 38vw;
     top: 171vw;
     position: absolute;
     width: 30vw;
@@ -389,7 +389,7 @@ object-fit: contain;
 }
 
 #text_15 {
-    left: 42vw;
+    left: 38vw;
     top: 194vw;
     position: absolute;
     width: 30vw;
@@ -397,7 +397,7 @@ object-fit: contain;
     display: inline;
 }
 #text_16 {
-    left: 42vw;
+    left: 38vw;
     top: 216vw;
     position: absolute;
     width: 30vw;
@@ -406,7 +406,7 @@ object-fit: contain;
 }
 
 #text_17 {
-    left: 42vw;
+    left: 38vw;
     top: 240vw;
     position: absolute;
     width: 30vw;
