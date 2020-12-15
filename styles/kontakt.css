@@ -12,6 +12,7 @@ nav,
 nav a {
     color: white;
 }
+nav {}
 
 /*-------STYLE AF SPLASH--------*/
 
@@ -20,7 +21,7 @@ h2 {
     font-size: 7vw;
     position: absolute;
     top: 200px;
-    left: 25vw;
+    left: 28vw;
     color: white;
 }
 #splash {

@@ -1,51 +1,22 @@
 window.addEventListener("load", sidenVises);
 
 function sidenVises() {
-	console.log("sidenVises");
-	if (window.matchMedia("(max-width: 500px)").matches) {
-		/* The viewport is less than, or equal to, 600 pixels wide */
+    console.log("sidenVises");
 
-		const menuknap = document.querySelector("#menuknap");
-		const box_menu = document.querySelector("#box_menu");
-<<<<<<< HEAD
-		document.querySelector("#logo").classList.add("toggle");
-        window.onscroll = function() {Navbar()};
-=======
-//		document.querySelector("#logo").classList.add("hidden");
-
->>>>>>> Kaffe/master
-		menuknap.addEventListener("click", toggle);
-	} else {
-		/* The viewport is greater than 600 pixels wide */
-		menuknap.classList.add("hidden");
-//		document.querySelector("#logo").classList.remove("hidden");
-
-	}
+    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 }
 
-function toggle() {
-	console.log("toggle");
-	box_menu.classList.toggle("toggle");
-	box_menu.classList.remove("hidden");
+function toggleMenu() {
+    console.log("toggleMenu");
+    document.querySelector("#menu").classList.toggle("hidden");
 
+    let erSkjult = document.querySelector("#menu").classList.contains("hidden");
 
-	let erSkjult = document.querySelector("#box_menu").classList.contains("toggle");
+    if (erSkjult == true) {
+        document.querySelector("#menuknap").textContent = "☰";
 
-	if (erSkjult == true) {
-		document.querySelector("#menuknap").text = "☰";
-	} else {
-		document.querySelector("#menuknap").text = "X";
-	}
-}
-
-var Navbar = document.getElementById("Navbar");
-var sticky = Navbar.offsetTop;
-
-
-function Navbar() {
-  if (window.pageYOffset >= sticky) {
-    Navbar.classList.add("sticky")
-  } else {
-    Navbar.classList.remove("sticky");
-  }
+    } else {
+        document.querySelector("#menuknap").textContent = "✕";
+        document.querySelector("#menu").classList.remove("hidden");
+    }
 }
