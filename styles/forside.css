@@ -12,17 +12,19 @@ main {
 	max-width: none;
 	margin: 0 0;
 	padding-bottom: 10vw;
-	width: 5%;
+}
+
+#splash video {
+	max-width: 100%;
 	height: auto;
 }
 
-
 #splash h1 {
-	position: absolute;
+	position: relative;
 	color: #ffff;
 	text-align: center;
-	margin-top: -110vw;
-	font-size: 4.5em;
+	margin-top: -45vw;
+	font-size: 3.5em;
 }
 
 /*Sektion Velkommen*/
