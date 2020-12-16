@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
 	margin: 0;
 	padding: 0;
@@ -74,22 +75,88 @@ video {
 }
 
 /*
+=======
+        * {
+        margin: 0;
+        padding: 0;
+    }
+    main {
+        max-width: 1300px;
+        margin: 0 auto;
+    }
+    body {
+        background-color: white;
+    }
+    #fourth_section {
+        padding-top: 40px;
+    }
+    .col_wide {
+        background-color: #bcede2;
+        border-radius: 16px;
+        padding: auto 30px #bcede2;
+    }
+    h1 {
+        font-size: 3.2em;
+        padding-top: 5px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+    h2 {
+        font-size: 2rem;
+        padding-left: 25px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+        text-align: left;
+    }
+    h3 {
+        font-size: 1.3rem;
+        padding-left: 10px;
+        padding-top: 35px;
+    }
+    h4 {
+        padding-left: 10px;
+    }
+    p {
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-top: 5px;
+        font-size: 1em;
+    }
+    img {
+        width: 96%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 30px;
+    }
+    video {
+        width: 96%;
+        height: auto;
+        justify-content: center;
+        padding-left: 10px;
+    }
+    /*
+>>>>>>> origin/master
 #fourth_section .row1 {
 	display: grid;
 	grid-template-columns: 1fr;
 	column-gap: 10px;
 }*/
+    /* ----Desktop version---- */
 
-/* ----Desktop version---- */
-
-@media only screen and (min-width: 800px) {
-	#fourth_section .section_wrapper {
-		/*		text-align: center;*/
-		/*
+    @media only screen and (min-width: 800px) {
+        #fourth_section .section_wrapper {
+            /*		text-align: center;*/
+            /*
 		display: grid;
 		grid-template-columns: 1fr;
 		column-gap: 10px;
 */
+<<<<<<< HEAD
 		margin: 2vw;
 	}
 
@@ -167,14 +234,80 @@ video {
 	@media only screen and (min-width: 500px) {
 		#fourth_section {
 			/*
+=======
+            margin: 2vw;
+        }
+        #fourth_section {
+            padding-top: 40px;
+        }
+        .col_wide {
+            background-color: #bcede2;
+            border-radius: 16px;
+            padding: auto 30px #bcede2;
+        }
+        p {
+            text-align: left;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-bottom: 110px;
+            padding-top: 40px;
+            font-size: 1em;
+        }
+        h4 {
+            padding-left: 30px;
+            padding-bottom: 10px;
+        }
+        .row2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 4vw;
+        }
+        .row2 .col1 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .row2 .col2 {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            text-align: left;
+        }
+        .row2 .col2 p {
+            text-align: left;
+            padding: 30px;
+            padding-top: 0;
+        }
+        .row2 .col2 h3 {
+            text-align: left;
+            padding-left: 30px;
+            padding-top: 15px;
+            padding-bottom: 0;
+        }
+        img {
+            width: 92%;
+            height: auto;
+        }
+        video {
+            width: 96%;
+            height: auto;
+            padding-right: 10px;
+        }
+        /* ----Tablet version----*/
+        @media only screen and (min-width: 500px) {
+            #fourth_section {
+                /*
+>>>>>>> origin/master
 			display: grid;
 			grid-template-columns: 1fr;
 			column-gap: 10px;
 */
-			margin-top: 2vw;
-			margin-bottom: 2vw;
-			margin-left: 2vw;
-			margin-right: 2vw;
-			text-align: center;
-		}
-	}
+                margin-top: 2vw;
+                margin-bottom: 2vw;
+                margin-left: 2vw;
+                margin-right: 2vw;
+                text-align: center;
+            }
+        }
