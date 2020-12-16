@@ -8,23 +8,24 @@ main {
 	margin: 0 auto;
 }
 
-
 #splash {
 	max-width: none;
 	margin: 0 0;
-	padding-bottom: 10vw;
-	background-position: 50% 50%;
-	min-height: 100%;
-	min-width: 100%;
+	padding-bottom: 20vw;
+	padding-top: 20vw;
 }
 
+#splash video {
+	max-width: 100%;
+	height: auto;
+}
 
 #splash h1 {
-	position: absolute;
+	position: relative;
 	color: #ffff;
 	text-align: center;
-	margin-top: -110vw;
-	font-size: 4.5em;
+	margin-top: -45vw;
+	font-size: 3.5em;
 }
 
 /*Sektion Velkommen*/
@@ -49,8 +50,8 @@ main {
 
 /*sektion muligheder*/
 #muligheder {
-	padding-top: 5vw;
-	padding-bottom: 5vw;
+	padding-top: 10vw;
+	padding-bottom: 10vw;
 }
 
 #muligheder a {
@@ -62,9 +63,17 @@ main {
 	font-size: 1.1em;
 }
 
+.pil {
+	width: 6vw;
+	height: 6vw;
+	position: relative;
+	top: -22vw;
+	left: 94vw;
+}
+
 /*Section citat*/
 #citat .sectionwrapper {
-	margin-bottom: 4vw;
+	margin-bottom: -30vw;
 }
 
 #citat .sectionwrapper .col {
@@ -107,9 +116,6 @@ main {
 #aabningstider .sectionwrapper .aaben .tider h2 {
 	grid-column-start: 1;
 	grid-column-end: 2;
-
-
-
 }
 
 #aabningstider .sectionwrapper .aaben .tider .dag {
@@ -167,7 +173,7 @@ figure {
 	border-radius: 15px;
 }
 
-figcaption {
+#muligheder .sectionwrapper p {
 	padding: 2.5vw;
 	width: 50%;
 	font-size: 1.5em;
@@ -188,41 +194,21 @@ figcaption {
 #instagram h3 {
 	text-align: center;
 	padding: 10px;
-}
-
-#instagram h3:before {
-	content: "";
-	display: block;
-	width: 130px;
-	height: 5px;
-	background: #2b2b2b;
-	left: 0;
-	top: 50%;
-	position: absolute;
-}
-
-#instagram h3:after {
-	content: "";
-	display: block;
-	width: 130px;
-	height: 5px;
-	background: #2b2b2b;
-	right: 0;
-	top: 50%;
-	position: absolute;
+	position: relative;
 }
 
 /*----------TABLET---------------- */
 @media only screen and (min-width: 600px) {
 
-	#splash h1 {
-		margin-top: -50vw;
-		margin-left: 20vw;
-		padding: 0;
+	#splash {
+		padding-bottom: 20vw;
+		padding-top: 0vw;
 	}
 
-	#citat .sectionwrapper {
-		padding-bottom: 0vw;
+	#splash h1 {
+		margin-top: -35vw;
+		padding: 0;
+		font-size: 5em;
 	}
 
 	#citat .sectionwrapper .col {
@@ -246,11 +232,11 @@ figcaption {
 		#splash {
 			margin-left: 0;
 			margin-top: 0;
+			padding-bottom: 30vw;
 		}
 
 		#splash h1 {
 			margin-top: -35vw;
-			margin-left: 20vw;
 			font-size: 8em;
 		}
 
@@ -276,10 +262,15 @@ figcaption {
 			padding-bottom: 4px;
 		}
 
-		/*	sektion citat */
-		#citat .sectionwrapper {
-			margin-bottom: 0vw;
+		.pil {
+			width: 3vw;
+			height: 3vw;
+			position: relative;
+			top: -20vw;
+			left: 85vw;
 		}
+
+		/*	sektion citat */
 
 		#citat .sectionwrapper .col {
 			margin-top: 20vw;
@@ -402,5 +393,4 @@ figcaption {
 			grid-column-start: 1;
 			grid-column-end: 2;
 		}
-
 	}

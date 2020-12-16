@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 main {
 	max-width: 1300px;
 	margin: 0 auto;
@@ -7,6 +12,10 @@ body {
 	background-color: white;
 }
 
+#fourth_section {
+        padding-top: 40px;
+    }
+
 .col_wide {
 	background-color: #bcede2;
 	border-radius: 16px;
@@ -14,19 +23,23 @@ body {
 }
 
 h1 {
-	font-size: 3.2rem;
+	font-size: 3.2em;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 10px;
 }
 
 h2 {
 	font-size: 2rem;
 	padding-left: 10px;
-	padding-bottom: 25px;
+	padding-bottom: 10px;
 	padding-top: 20px;
 }
 
 h3 {
 	font-size: 1.3rem;
 	padding-left: 10px;
+    padding-top: 35px;
 }
 
 h4 {
@@ -38,7 +51,7 @@ p {
 	padding-left: 10px;
 	padding-right: 20px;
 	padding-bottom: 30px;
-	padding-top: 10px;
+	padding-top: 5px;
 	font-size: 1em;
 }
 
@@ -49,6 +62,11 @@ img {
 	padding-left: 10px;
 	padding-right: 10px;
 	border-radius: 30px;
+}
+video {
+    width: 96%;
+    justify-content: center;
+    padding-left: 10px;
 }
 
 /*
@@ -70,7 +88,8 @@ img {
 */
 		margin: 2vw;
 	}
-    #fourth_section {
+
+   #fourth_section {
         padding-top: 40px;
     }
 
@@ -131,6 +150,10 @@ img {
 	img {
 		width: 92%;
 	}
+    video {
+        width: 96%;
+        padding-right: 10px;
+    }
 
 	/* ----Tablet version----*/
 
