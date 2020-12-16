@@ -8,6 +8,10 @@ main {
 	margin: 0 auto;
 }
 
+h3 {
+	margin-top: 5vw;
+}
+
 #splash {
 	max-width: none;
 	margin: 0 0;
@@ -32,8 +36,8 @@ main {
 
 #velkommen {
 	padding-top: 3rem;
-	padding-left: 5rem;
-	padding-right: 5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
 	padding-bottom: 3rem;
 	background-color: #bcede2;
 }
@@ -46,6 +50,10 @@ main {
 
 #velkommen .sectionwrapper .tekst {
 	padding-top: 3vw;
+}
+
+#velkommen .sectionwrapper .tekst p {
+	line-height: 1.35em;
 }
 
 /*sektion muligheder*/
@@ -241,6 +249,18 @@ figure {
 		}
 
 		/*	Section Velkommen */
+
+		#velkommen {
+			padding-top: 2rem;
+			padding-left: 5rem;
+			padding-right: 5rem;
+			padding-bottom: 3rem;
+		}
+
+		h3 {
+			margin-top: 2vw;
+		}
+
 		#velkommen .sectionwrapper {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
@@ -253,6 +273,7 @@ figure {
 		}
 
 		#velkommen .sectionwrapper .tekst {
+			padding-top: 1vw;
 			grid-column-start: 2;
 			grid-column-end: 3;
 			padding-right: 3vw;
