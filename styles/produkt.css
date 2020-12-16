@@ -496,31 +496,33 @@ img:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
 }
-
+/*
 footer {
-    position: absolute;
-    top: 260vw;
-    height: 30vh;
-    left: 0vw;
-    padding-top: 1vw;
+	position: absolute;
+	top: 260vw;
+	height: 30vh;
+	left: 0vw;
+	padding-top: 1vw;
 }
-    #adresse {
-        position: absolute;
-    top: 6vw;
-    left: 39vw;
-    height: 10vh;
-    padding-top: 0vw;
-        text-align: center;
-    }
-    #copyright {
-    position: absolute;
-    top: 8vw;
-    left: 42vw;
-    height: 10vh;
-    padding-top: 0vw;
-    text-align: center;
-    }
+
+#adresse {
+	position: absolute;
+	top: 6vw;
+	left: 39vw;
+	height: 10vh;
+	padding-top: 0vw;
+	text-align: center;
 }
+
+#copyright {
+	position: absolute;
+	top: 8vw;
+	left: 42vw;
+	height: 10vh;
+	padding-top: 0vw;
+	text-align: center;
+}
+}*/
 
 @media only screen and (max-width: 1000px) {
     #Kaffe{
