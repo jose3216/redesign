@@ -1,7 +1,6 @@
 html, body {
   height: 100%;
   font-size: 16px;
-  font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -511,7 +510,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     #Kaffe{
 
         width: 150px;
