@@ -496,7 +496,6 @@ img:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
 }
-/*
 footer {
 	position: absolute;
 	top: 260vw;
@@ -522,8 +521,7 @@ footer {
 	padding-top: 0vw;
 	text-align: center;
 }
-}*/
-
+}
 @media only screen and (max-width: 1000px) {
     #Kaffe{
 
@@ -852,15 +850,12 @@ footer {
         top: 40vw;
         left: 10vw;
     }
-/*
     footer {
     	position: absolute;
     	top: 2100vw;
     	height: 25vh;
     	left: 0vw;
-    }
-*/
-    .contaniner {
+    }    .contaniner {
         display: none;
     }
     .contaniner2 {
