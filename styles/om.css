@@ -299,7 +299,6 @@ video {
         @media only screen and (min-width: 500px) {
             #fourth_section {
                 /*
->>>>>>> origin/master
 			display: grid;
 			grid-template-columns: 1fr;
 			column-gap: 10px;
