@@ -1,17 +1,28 @@
 html, body {
   height: 100%;
   font-size: 16px;
-  font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
 }
 
 body {
   display: flex;
 }
 
-@media only screen and (min-width: 800px) {
-#Navbar {
-  overflow: hidden;
+
+@media only screen and (min-width: 1000px) {
+
+nav {
+    top 1vw;
+    right: 1vw;
+    position: absolute;
+    overflow: hidden;
 }
+
+
+    #logo {
+    top 1vw;
+    left: 1vw;
+    position: absolute;
+    }
 
 #Navbar a {
   float: left;
@@ -511,7 +522,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     #Kaffe{
 
         width: 150px;

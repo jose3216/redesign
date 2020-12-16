@@ -173,7 +173,7 @@ figure {
 	border-radius: 15px;
 }
 
-figcaption {
+#muligheder .sectionwrapper p {
 	padding: 2.5vw;
 	width: 50%;
 	font-size: 1.5em;
@@ -393,5 +393,4 @@ figcaption {
 			grid-column-start: 1;
 			grid-column-end: 2;
 		}
-
 	}
