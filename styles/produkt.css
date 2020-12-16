@@ -9,17 +9,16 @@ body {
 
 
 @media only screen and (min-width: 1000px) {
-#Navbar {
-  overflow: hidden;
-}
+
 nav {
     top 1vw;
     right: 1vw;
     position: absolute;
+    overflow: hidden;
 }
 
 
-    #logo{
+    #logo {
     top 1vw;
     left: 1vw;
     position: absolute;
