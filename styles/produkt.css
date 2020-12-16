@@ -272,6 +272,13 @@ object-fit: contain;
     font-size: 3vw;
 }
 
+    #Produkter {
+    position: absolute;
+    top: 10vw;
+    left: 26vw;
+    font-size: 1vw;
+    }
+
 #Kage {
     position: absolute;
     top: 138vw;
