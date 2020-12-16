@@ -151,9 +151,12 @@ video {
 
 	img {
 		width: 92%;
+        height: auto;
 	}
+
     video {
         width: 96%;
+        height: auto;
         padding-right: 10px;
     }
 
