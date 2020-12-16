@@ -66,10 +66,11 @@ button {
     text-align: center;
 }
 #formular img {
-    width: 50%;
+    width: 300px;
+    height: 409px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+margin-right: auto;
     padding-bottom: 10px;
 }
 #formular .sectionwrapper {
@@ -97,6 +98,10 @@ button {
     font-family: 'lato';
     font-size: 1rem;
     padding-bottom: 30px;
+}
+#socialmedia img {
+    width: 100px;
+    height: 100px;
 }
 #socialmedia .top {
     display: grid;
