@@ -38,7 +38,7 @@
     h4 {
         padding-left: 10px;
     }
-    p {
+    .section_wrapper p {
         text-align: left;
         padding-left: 10px;
         padding-right: 20px;
@@ -46,8 +46,8 @@
         padding-top: 5px;
         font-size: 1em;
     }
-    img {
-        width: 96%;
+    .section_wrapper img {
+        width: 100%;
         height: auto;
         padding-top: 10px;
         padding-bottom: 25px;
@@ -87,7 +87,7 @@
             border-radius: 16px;
             padding: auto 30px #bcede2;
         }
-        p {
+        .section_wrapper p {
             text-align: left;
             padding-left: 150px;
             padding-right: 150px;
@@ -128,8 +128,8 @@
             padding-top: 15px;
             padding-bottom: 0;
         }
-        img {
-            width: 92%;
+        .section_wrapper img {
+            width: 100%;
             height: auto;
         }
         video {
