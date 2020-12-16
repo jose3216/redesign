@@ -57,7 +57,7 @@ p {
 }
 
 img {
-	width: 96%;
+	width: 100%;
 	height: auto;
 	padding-top: 10px;
 	padding-bottom: 25px;
@@ -152,7 +152,7 @@ video {
 	}
 
 	img {
-		width: 92%;
+		width: 100%;
 		height: auto;
 	}
 
