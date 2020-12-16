@@ -850,12 +850,14 @@ footer {
         top: 40vw;
         left: 10vw;
     }
+/*
     footer {
-    position: absolute;
-    top: 2100vw;
-    height: 25vh;
-    left: 0vw;
-}
+    	position: absolute;
+    	top: 2100vw;
+    	height: 25vh;
+    	left: 0vw;
+    }
+*/
     .contaniner {
         display: none;
     }
