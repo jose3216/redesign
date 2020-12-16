@@ -534,10 +534,17 @@ footer {
 
         width: 150px;
         position: absolute;
-        top: 112vw;
+        top: 50vw;
         left: 24vw;
         font-size: 8vw;
 		}
+     #Produkter {
+    width: 70vw;
+        position: absolute;
+        top: 74vw;
+        left: 20vw;
+        font-size: 4vw;
+    }
 
     #Kage{
 
